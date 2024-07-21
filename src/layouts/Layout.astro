@@ -1,0 +1,32 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+
+import "../sass/main.scss";
+---
+
+<!doctype html>
+<html>
+	<head>
+		<title>{title}</title>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no"
+		/>
+	</head>
+	<body class="landing is-preload">
+		<slot />
+
+		<script is:inline src="/js/jquery.min.js"></script>
+		<script is:inline src="/js/jquery.dropotron.min.js"></script>
+		<script is:inline src="/js/breakpoints.min.js"></script>
+		<script is:inline src="/js/browser.min.js"></script>
+		<script is:inline src="/js/jquery.scrollex.min.js"></script>
+		<script is:inline src="/js/util.js"></script>
+		<script is:inline src="/js/main.js"></script>
+	</body>
+</html>
