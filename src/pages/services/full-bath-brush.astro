@@ -1,0 +1,45 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Image from "astro/components/Image.astro";
+import fullbath from "../../images/full-bath.webp";
+---
+
+<Layout title="Services :: Full Bath & Brush">
+   <!-- Main -->
+   <section id="main" class="container">
+      <header>
+         <h2>Full Bath & Brush</h2>
+         <!-- <p>A generic page for every non-generic situation.</p> -->
+      </header>
+      <div class="box">
+         <span class="image featured"><Image src={fullbath} alt="" /></span>
+         <h4>Includes:</h4>
+         <ul>
+            <li>Massage bath</li>
+            <li>Facial wash</li>
+            <li>Hand blow out, brush out and de-shedding if needed</li>
+            <li>Nail clipper and file</li>
+            <li>Ear cleaning (Ear plucking is not include)</li>
+            <li>Teeth brush</li>
+            <li>Cologne</li>
+            <li>Bandana or hair bows</li>
+         </ul>
+
+         <div class="prices">
+            <p>Small dog (0 - 19 lbs) Starting at $95</p>
+            <p>Medium dog (20 - 39 lbs) Starting at $105</p>
+            <p>Large dog (40 - 59 lbs) Starting at $120</p>
+            <p>Extra Large dog (Over 60 lbs) Starting at $145</p>
+         </div>
+      </div>
+   </section>
+</Layout>
+
+<style>
+.prices p {
+   font-size: larger;
+   font-weight: 500;
+   margin: 15px 0;
+}
+
+</style>

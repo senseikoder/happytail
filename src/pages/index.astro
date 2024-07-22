@@ -1,7 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
 // import Card from "../components/Card.astro";
-import NavBar from "../components/NavBar.astro";
 import Image from "astro/components/Image.astro";
 import logoHappy from "../images/logo_Happy_Tail_Grooming.webp";
 import northLogo from "../images/north-ca.jpg";
@@ -12,170 +11,155 @@ import cred2 from "../images/credentials2.webp";
 ---
 
 <Layout title="Home Happy Tail Grooming">
-	<div id="page-wrapper">
-		<!-- Header -->
-		<header id="header" class="reveal alt">
-			<h1>Happy Tail Grooming</h1>
-
-			<NavBar />
-		</header>
-
-		<!-- Banner -->
-		<section id="banner">
-			<div class="logo">
-				<Image src={logoHappy} alt="Logo Happy Tail Grooming" />
-			</div>
-			<!-- <h2>Happy Tail Grooming</h2> -->
-			<p>
-				<h4 class="sub-title">
-					We Pamper your pet because their deserve it
-				</h4>
-			</p>
-			<!-- <ul class="actions special">
+	<!-- Banner -->
+	<section id="banner">
+		<div class="logo">
+			<Image src={logoHappy} alt="Logo Happy Tail Grooming" />
+		</div>
+		<!-- <h2>Happy Tail Grooming</h2> -->
+		<p>
+			<h3 class="sub-title">We Pamper your pet because their deserve it</h3>
+		</p>
+		<!-- <ul class="actions special">
 				<li><a href="#" class="button primary">Sign Up</a></li>
 				<li><a href="#" class="button">Learn More</a></li>
 			</ul> -->
+	</section>
+
+	<!-- Main -->
+	<section id="main" class="container">
+		<section class="box special">
+			<header class="major">
+				<h2>About Happy Tail Grooming</h2>
+				<p>
+					At Happy Tail Grooming our sole focus is the quality of the
+					services being providing and not the quantity of pets we can
+					service daily. We are trained professionals that know how to
+					properly care for your pet, we are not only animal lovers but
+					also professional trained. We take time with each pet, review
+					their individual needs, and discuss these needs with each client
+					to ensure every pet receives the best care and service possible.
+				</p>
+				<p>
+					You no longer have to worry about your pet experiencing many of
+					the anxieties that come with visiting your typical grooming
+					locations. Your pet will not be locked in cages, left unattended
+					for extended periods of time, exposed to the other pets, or
+					hazardous conditions. All this helps in reducing your pets stress
+					levels and makes the entire grooming experience more enjoyable.
+					We offer all of this in a high-quality modern mobile solution
+					that comes to your location to ensure that each pet and their
+					owner walk away completely satisfied.
+
+					<br /><br />
+
+					Thank you, I look forward to hearing from you.
+				</p>
+			</header>
+			<span class="image featured">
+				<!-- <img src="../images/pic01.jpg" alt="" /> -->
+			</span>
 		</section>
 
-		<!-- Main -->
-		<section id="main" class="container">
-			<section class="box special">
-				<header class="major">
-					<h2>About Happy Tail Grooming</h2>
+
+		
+		<section class="box special">
+			<header class="major">
+				<h2>Owner / Founder & Professional Dog Groomer</h2>
+				<p>
+					Most of my adult life has revolved around my love of dogs. My
+					inspiration to enter the field of pet care began when I adopted
+					my golden retriever, Chanel. After adopting Chanel I began to
+					seek qualified trustworthy people whom I would feel comfortable
+					with caring of her. After being disappointed time and time again
+					by the quality of care and attention Chanel was receiving, I
+					decided to leave my old career and make pet care my primary
+					focus. Initially I began my company as a dog walking and sitting
+					service. In a very short time, my business grew rapidly thanks to
+					great word of mouth. As my business grew, I started to see that
+					another need arose. Many of my clients were in desperate need of
+					reliable grooming services for their pets. I had been grooming
+					Chanel and all the other pets in my family for years and many of
+					my clients would request I also provide these services to them. I
+					decided to invest the time needed to attend professional grooming
+					courses. After completing my training and graduating from my
+					training, I became a full time Certified Pet Groomer. After a few
+					years working as a dog groomer in other states, I made the move
+					to Charlotte, NC. In my time in the Charlotte area, I have worked
+					at a few different high profile grooming companies. Recently I
+					decided to go into business for myself again and opened up Happy
+					Tail Grooming. Whereas my previous work experiences always delt
+					in quantity, at Happy Tail I prefer to deal in quality. This
+					business model allows me the freedom to take my time with each of
+					my clients and ensure that they get a much higher level of
+					service.
+				</p>
+				<p>
+					A pet parent should feel 100% at ease when leaving their pet in a
+					groomer's hands. I give every pet in my care the same love and
+					attention that I give my own pets. I feel each client should
+					expect nothing less but the best when they entrust their pets to
+					us. I care for all of my client's pets as I care for my own. This
+					is my personal promise to my clients.
+				</p>
+			</header>
+			<span class="image featured">
+				<!-- <img src="../images/pic01.jpg" alt="" /> -->
+			</span>
+		</section>
+
+		<section class="box special features">
+			<h2>Services Areas</h2>
+			<div class="features-row">
+				<section>
+					<!-- <span class="icon solid major fa-chart-area accent3"></span> -->
+					<figure>
+						<Image src={southLogo} alt="North CA State" width="150" />
+					</figure>
+					<h3>South Carolina</h3>
+					<p>Fort Mill, Indian land and Rock Hill.</p>
+				</section>
+				<section>
+					<!-- <span class="icon solid major fa-chart-area accent3"></span> -->
+					<figure>
+						<Image src={northLogo} alt="North CA State" width="150" />
+					</figure>
+					<h3>North Carolina</h3>
 					<p>
-						At Happy Tail Grooming our sole focus is the quality of the
-						services being providing and not the quantity of pets we can
-						service daily. We are trained professionals that know how to
-						properly care for your pet, we are not only animal lovers but
-						also professional trained. We take time with each pet, review
-						their individual needs, and discuss these needs with each
-						client to ensure every pet receives the best care and service
-						possible.
+						Ballantine, Pineville, Waxhaw, Piper Glen, Matthews,
+						Providence and Indian Trail.
 					</p>
-					<p>
-						You no longer have to worry about your pet experiencing many
-						of the anxieties that come with visiting your typical grooming
-						locations. Your pet will not be locked in cages, left
-						unattended for extended periods of time, exposed to the other
-						pets, or hazardous conditions. All this helps in reducing your
-						pets stress levels and makes the entire grooming experience
-						more enjoyable. We offer all of this in a high-quality modern
-						mobile solution that comes to your location to ensure that
-						each pet and their owner walk away completely satisfied.
-
-						<br /><br />
-
-						Thank you, I look forward to hearing from you.
-					</p>
-				</header>
-				<span class="image featured">
-					<!-- <img src="../images/pic01.jpg" alt="" /> -->
-				</span>
-			</section>
-
-			<section class="box special">
-				<header class="major">
-					<h2>Owner / Founder & Professional Dog Groomer</h2>
-					<p>
-						Most of my adult life has revolved around my love of dogs. My
-						inspiration to enter the field of pet care began when I
-						adopted my golden retriever, Chanel. After adopting Chanel I
-						began to seek qualified trustworthy people whom I would feel
-						comfortable with caring of her. After being disappointed time
-						and time again by the quality of care and attention Chanel was
-						receiving, I decided to leave my old career and make pet care
-						my primary focus. Initially I began my company as a dog
-						walking and sitting service. In a very short time, my business
-						grew rapidly thanks to great word of mouth. As my business
-						grew, I started to see that another need arose. Many of my
-						clients were in desperate need of reliable grooming services
-						for their pets. I had been grooming Chanel and all the other
-						pets in my family for years and many of my clients would
-						request I also provide these services to them. I decided to
-						invest the time needed to attend professional grooming
-						courses. After completing my training and graduating from my
-						training, I became a full time Certified Pet Groomer. After a
-						few years working as a dog groomer in other states, I made the
-						move to Charlotte, NC. In my time in the Charlotte area, I
-						have worked at a few different high profile grooming
-						companies. Recently I decided to go into business for myself
-						again and opened up Happy Tail Grooming. Whereas my previous
-						work experiences always delt in quantity, at Happy Tail I
-						prefer to deal in quality. This business model allows me the
-						freedom to take my time with each of my clients and ensure
-						that they get a much higher level of service.
-					</p>
-					<p>
-						A pet parent should feel 100% at ease when leaving their pet
-						in a groomer's hands. I give every pet in my care the same
-						love and attention that I give my own pets. I feel each client
-						should expect nothing less but the best when they entrust
-						their pets to us. I care for all of my client's pets as I care
-						for my own. This is my personal promise to my clients.
-					</p>
-				</header>
-				<span class="image featured">
-					<!-- <img src="../images/pic01.jpg" alt="" /> -->
-				</span>
-			</section>
-
-			<section class="box special features">
-				<h3>Services Areas</h3>
-				<div class="features-row">
-					<section>
-						<!-- <span class="icon solid major fa-chart-area accent3"></span> -->
-						<figure>
-							<Image src={southLogo} alt="North CA State" width="150" />
-						</figure>
-						<h3>South Carolina</h3>
-						<p>Fort Mill, Indian land and Rock Hill.</p>
-					</section>
-					<section>
-						<!-- <span class="icon solid major fa-chart-area accent3"></span> -->
-						<figure>
-							<Image src={northLogo} alt="North CA State" width="150" />
-						</figure>
-						<h3>North Carolina</h3>
-						<p>
-							Ballantine, Pineville, Waxhaw, Piper Glen, Matthews,
-							Providence and Indian Trail.
-						</p>
-					</section>
-				</div>
-			</section>
-
-			<div class="row">
-				<div class="col-12">
-					<section class="box special">
-						<h3>Our Credentials</h3>
-
-						<div class="credentials">
-							<figure class="image">
-								<Image src={cred0} alt="" width="200" />
-							</figure>
-							<figure class="image">
-								<Image src={cred1} alt="" width="350" />
-							</figure>
-							<figure class="image">
-								<Image
-									src={cred2}
-									alt=""
-									width="250"
-									class="bordered"
-								/>
-							</figure>
-						</div>
-
-						<ul class="actions special">
-							<li><a href="#" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
+				</section>
 			</div>
 		</section>
 
-		<!-- CTA -->
-		<section id="cta">
+		<div class="row">
+			<div class="col-12">
+				<section class="box special">
+					<h2>Our Credentials</h2>
+
+					<div class="credentials">
+						<figure class="image">
+							<Image src={cred0} alt="" width="200" />
+						</figure>
+						<figure class="image">
+							<Image src={cred1} alt="" width="350" />
+						</figure>
+						<figure class="image">
+							<Image src={cred2} alt="" width="250" class="bordered" />
+						</figure>
+					</div>
+
+					<ul class="actions special">
+						<li><a href="#" class="button alt">See More</a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</section>
+
+	<!-- CTA -->
+	<!-- <section id="cta">
 			<h2>Sign up for beta access</h2>
 			<p>
 				Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus
@@ -197,49 +181,9 @@ import cred2 from "../images/credentials2.webp";
 					</div>
 				</div>
 			</form>
-		</section>
+		</section> -->
 
-		<!-- Footer -->
-		<footer id="footer">
-			<ul class="icons">
-				<li>
-					<a href="#" class="icon brands fa-twitter"
-						><span class="label">Twitter</span></a
-					>
-				</li>
-				<li>
-					<a href="#" class="icon brands fa-facebook-f"
-						><span class="label">Facebook</span></a
-					>
-				</li>
-				<li>
-					<a href="#" class="icon brands fa-instagram"
-						><span class="label">Instagram</span></a
-					>
-				</li>
-				<li>
-					<a href="#" class="icon brands fa-github"
-						><span class="label">Github</span></a
-					>
-				</li>
-				<li>
-					<a href="#" class="icon brands fa-dribbble"
-						><span class="label">Dribbble</span></a
-					>
-				</li>
-				<li>
-					<a href="#" class="icon brands fa-google-plus"
-						><span class="label">Google+</span></a
-					>
-				</li>
-			</ul>
-			<ul class="copyright">
-				<li>&copy; Untitled. All rights reserved.</li><li>
-					Design: <a href="http://html5up.net">HTML5 UP</a>
-				</li>
-			</ul>
-		</footer>
-	</div>
+	<!-- Footer -->
 </Layout>
 
 <style>

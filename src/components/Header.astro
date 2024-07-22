@@ -1,0 +1,19 @@
+---
+import NavBar from "../components/NavBar.astro";
+const isHome = Astro.url.pathname == "/";
+---
+
+<!-- Header -->
+<header id="header" class:list={["reveal", { alt: isHome }]}>
+   <h1>Happy Tail Grooming</h1>
+
+   <NavBar />
+</header>
+
+<style>
+   #header h1 {
+      color: whitesmoke;
+      font-size: x-large;
+      font-weight: 500;
+   }
+</style>

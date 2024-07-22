@@ -4,7 +4,7 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-// @import url('fontawesome-all.min.css');
+@import 'libs/fontawesome.all.min.css';
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
 /*
@@ -754,11 +754,12 @@ $box-padding: 3em;
 			);
 		position: relative;
 		width: calc(100% + #{$box-padding * 2});
+		overflow: hidden;
 
 		img {
 			border-radius: 0;
 			display: block;
-			width: 100%;
+			// width: 100%;
 		}
 
 		&:first-child {
@@ -1481,6 +1482,7 @@ body.landing {
 	background-attachment: fixed;
 	background-color: #666;
 	background-image: url('../images/banner-home.webp');
+	// background-image: url('../images/banner1.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
