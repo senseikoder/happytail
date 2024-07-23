@@ -754,7 +754,6 @@ $box-padding: 3em;
 			);
 		position: relative;
 		width: calc(100% + #{$box-padding * 2});
-		overflow: hidden;
 
 		img {
 			border-radius: 0;
@@ -1259,7 +1258,7 @@ body.landing {
 	z-index: 10000;
 
 	h1 {
-		color: inherit;
+		color: #555;
 		height: inherit;
 		left: 1.25em;
 		line-height: inherit;
@@ -1371,7 +1370,7 @@ body.landing {
 
 	&.alt {
 		@include vendor('animation', 'none');
-		background: none;
+		background: _palette(header, bg-light);
 		color: rgba(255, 255, 255, 0.75);
 		position: absolute;
 
@@ -1381,14 +1380,14 @@ body.landing {
 					a:not(.button) {
 						&.icon {
 							&:before {
-								color: rgba(255, 255, 255, 0.75);
+								color: rgba(100, 100, 100, 0.75);
 							}
 						}
 					}
 
 					&.active {
 						a:not(.button) {
-							background-color: rgba(255, 255, 255, 0.2);
+							background-color: #5dbfc2;
 						}
 					}
 				}
@@ -1481,7 +1480,7 @@ body.landing {
 #banner {
 	background-attachment: fixed;
 	background-color: #666;
-	background-image: url('../images/banner-home.webp');
+	background-image: url('../images/banner-home1.webp');
 	// background-image: url('../images/banner1.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;

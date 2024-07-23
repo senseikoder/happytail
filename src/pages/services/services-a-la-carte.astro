@@ -1,0 +1,93 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Image from "astro/components/Image.astro";
+import image from "../../images/services-carte.webp";
+---
+
+<Layout title="Services :: Full Groom">
+   <!-- Main -->
+   <section id="main" class="container">
+      <header>
+         <h2>Services a la Carte</h2>
+         <!-- <p>A generic page for every non-generic situation.</p> -->
+      </header>
+      <div class="box">
+         <span class="image featured"> <Image src={image} alt="" /></span>
+
+             
+
+         <ul>
+            <li>De - Matting + $15 ~ Up</li>
+            <li>Ear Plucking $15</li>
+            <li>Anal Gland Expression $15</li>
+            <li>
+               Specialty Shampoo (Hypoallergenic, whitening, flea and tick
+               shampoo, etc) + $10 ~ Up
+            </li>
+            <li>Soothing Paws Treatment $10</li>
+            <li>Nail Polish $15</li>
+            <li>Ask About Coloring Services</li>
+         </ul>
+
+         <div class="prices">
+            <ul>
+               <li>
+                  <b>Prices:</b> All prices are subject to change based on the current
+                  condition and length of the pet's coat. Excessively matted or tangled
+                  coats will be subject to additional charges to correct.
+               </li>
+               <li>
+                  <b>Severe Coat Conditions and Matting:</b> For most pets with
+                  long hair or coats, if there is a severe coat condition or
+                  matting, for the pet's safety and welfare your pet will need
+                  to be clipped very short. We will shave your dog with your
+                  prior authorization.
+               </li>
+               <li>
+                  <b>Health & Safety: </b> A groomer consultation is done before
+                  each appointment. It is your responsibility to let us know of
+                  any important changes in the health of your pet have occurred
+                  since the prior visit. You will be informed if we notice
+                  anything out of the norm, (moles, skin issues, lumps, ear
+                  infection, etc.), on your pet while they are in our care.
+               </li>
+               <li>
+                  <b>Fleas / Ticks: </b>
+                  You will be charged an additional flea shampoo fee, based on the
+                  weight of your pet, if they arrive with fleas. In the event we
+                  find a tick on your pet, we will advise you of the number of ticks
+                  and locations. We will remove a small number of ticks, however
+                  in the event your pet has a large number of ticks we will direct
+                  you to take your pet to a veterinarian for treatment immediately.
+               </li>
+               <li>
+                  <b>Behavioral Issues:</b> We use treats and positive handling
+                  techniques or muzzle if your dog shows signs of aggression, to
+                  complete the requested grooming services if possible. If your
+                  pet poses a danger to our staff, we may deny services.
+               </li>
+               <li>
+                  <b>Add-on:</b> Anal glands and/or plucking of ear hair are
+                  additional services and not provided as part of a standard
+                  grooming. If you wish for your pet's anal glands expressed or
+                  ears to be plucked, please select those add-on options on our
+                  appointment form.
+               </li>
+            </ul>
+         </div>
+      </div>
+   </section>
+</Layout>
+
+<style>
+   .prices p {
+      font-size: larger;
+      font-weight: 500;
+      margin: 15px 0;
+   }
+
+   .image img {
+      max-width: 100%;
+      height: auto;
+   }
+</style>
