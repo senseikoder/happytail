@@ -6,6 +6,8 @@ interface Props {
 const { title } = Astro.props;
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import "@fontsource/chewy";
+import "@fontsource-variable/open-sans";
 import "../sass/main.scss";
 
 const isHome = Astro.url.pathname == "/";
