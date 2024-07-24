@@ -250,7 +250,7 @@ h4,
 h5,
 h6 {
 	font-family: 'Chewy', sans-serif;
-	color: _palette(fg-bold);
+	color: _palette(purple);
 	font-weight: _font(weight);
 	line-height: 1em;
 	margin: 0 0 (_size(element-margin) * 0.25) 0;
@@ -438,12 +438,12 @@ article {
 
 header {
 	p {
-		color: _palette(fg-light);
+		color: _palette(fg);
 		position: relative;
 		margin: 20px 0 (_size(element-margin) * 0.75) 0;
 		// font-style: italic;
 		font-size: 1.25em;
-			line-height: 1.5em;
+		line-height: 1.5em;
 	}
 
 	// h2+p {
@@ -475,7 +475,7 @@ header {
 		p:first-of-type {
 			display: inline-block;
 			border-top: solid 2px _palette(border);
-			color: _palette(fg);
+			// color: _palette(fg);
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 0;
 			font-style: normal;
@@ -658,7 +658,7 @@ input[type="radio"] {
 $box-padding: 3em;
 
 .box {
-	background: #fff;
+	background: #fdfdfd;
 	border-radius: _size(border-radius);
 	box-shadow: 0 2px 0 0 _palette(border);
 	margin: 0 0 _size(element-margin) 0;
@@ -900,8 +900,19 @@ ul {
 	margin: 0 0 _size(element-margin) 0;
 	padding-left: 1em;
 
+	&.paw {
+		list-style: none;
+
+		i {
+			margin-right: .5rem;
+			color: _palette(purple);
+			font-size: small;
+		}
+	}
+
 	li {
-		padding-left: 0.5em;
+		padding-left: .5em;
+
 	}
 
 	&.alt {
@@ -1239,8 +1250,8 @@ body.landing {
 }
 
 #header {
-	background: _palette(header, bg);
-	color: _palette(header, fg);
+	background: _palette(accent2, bg);
+	color: _palette(header, fg-bold);
 	cursor: default;
 	height: 3.25em;
 	left: 0;
@@ -1251,7 +1262,7 @@ body.landing {
 	z-index: 10000;
 
 	h1 {
-		color: #555;
+		color: _palette(header, fg-light);
 		height: inherit;
 		left: 1.25em;
 		line-height: inherit;
@@ -1259,6 +1270,8 @@ body.landing {
 		padding: 0;
 		position: absolute;
 		top: 0;
+		font-size: x-large;
+		font-weight: 500;
 
 		a {
 			color: _palette(header, fg-bold);
@@ -1294,10 +1307,15 @@ body.landing {
 					line-height: 1.95em;
 					padding: 0 1em;
 					border-radius: _size(border-radius);
+					transition: all .3s;
+				}
+
+				a:hover {
+					outline: 1px solid _palette(accent1, fg-light) !important;
 				}
 
 				a:not(.button) {
-					color: _palette(header, fg-bold);
+					color: _palette(header, fg-light);
 					display: inline-block;
 					text-decoration: none;
 					border: 0;
@@ -1334,7 +1352,7 @@ body.landing {
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 2px _palette(header, fg-light);
-		color: _palette(header, fg-bold);
+		color: _palette(header, fg-light);
 
 		&:hover {
 			background-color: transparentize(_palette(header, fg-light), 0.75);
@@ -1363,14 +1381,21 @@ body.landing {
 
 	&.alt {
 		@include vendor('animation', 'none');
-		background: _palette(header, bg-light);
+		background: _palette(accent2, fg-light);
 		color: rgba(255, 255, 255, 0.75);
 		position: absolute;
+
+		h1 {
+			color: _palette(header, bg);
+		}
 
 		nav {
 			>ul {
 				>li {
 					a:not(.button) {
+
+						color: _palette(header, fg-bold);
+
 						&.icon {
 							&:before {
 								color: rgba(100, 100, 100, 0.75);
@@ -1391,10 +1416,11 @@ body.landing {
 		input[type="reset"],
 		input[type="button"],
 		.button {
-			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+			box-shadow: inset 0 0 0 2px _palette(header, fg);
+			color: _palette(header, fg);
 
 			&:hover {
-				background-color: rgba(255, 255, 255, 0.1);
+				background-color: rgba(255, 255, 255, 0.4);
 			}
 
 			&:active {
@@ -1492,7 +1518,7 @@ body.landing {
 	h4,
 	h5,
 	h6 {
-		color: #fff;
+		color: _palette(accent1, bg);
 	}
 
 	h2 {
