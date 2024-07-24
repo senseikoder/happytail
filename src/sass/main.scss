@@ -572,7 +572,7 @@ input[type="radio"] {
 	z-index: -1;
 
 	&+label {
-		@include icon(false, solid);
+		// @include icon(false, solid);
 		color: _palette(fg);
 		cursor: pointer;
 		display: inline-block;
@@ -696,6 +696,7 @@ $box-padding: 3em;
 				}
 
 				&:nth-child(2n) {
+					padding-right: 0;
 					&:before {
 						background: _palette(border);
 						content: '';
@@ -707,7 +708,6 @@ $box-padding: 3em;
 						width: 2px;
 					}
 
-					padding-right: 0;
 				}
 
 				&:nth-child(2n-1) {
@@ -779,7 +779,7 @@ $box-padding: 3em;
 /* Icon */
 
 .icon {
-	@include icon;
+	// @include icon;
 	border-bottom: none;
 	position: relative;
 
@@ -1881,7 +1881,7 @@ body.landing {
 		z-index: _misc(z-index-base) + 1;
 
 		.toggle {
-			@include icon(false, solid);
+			// @include icon(false, solid);
 			height: 100%;
 			left: 0;
 			position: absolute;
