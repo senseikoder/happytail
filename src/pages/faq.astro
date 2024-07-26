@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Image from "astro/components/Image.astro";
+import banner from "../images/banner-faq.webp";
 ---
 
 <Layout title="FAQ :: Happy Tail Grooming">
@@ -8,12 +9,9 @@ import Image from "astro/components/Image.astro";
    <section id="main" class="container medium">
       <header>
          <h2>FREQUENTLY ASKED QUESTIONS</h2>
-         <p>Most Popular Questions</p>
       </header>
       <div class="box">
-         <!-- <span class="image featured"
-            ><img src="images/pic01.jpg" alt="" /></span
-         > -->
+         <span class="image featured"><Image src={banner} alt="FAQs" /></span>
 
          <h4>How can I pay?</h4>
          <p>We accept cash and credit cards.</p>
@@ -105,14 +103,8 @@ import Image from "astro/components/Image.astro";
 </Layout>
 
 <style>
-   .credentials {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-   }
-
-   .credentials .bordered {
-      border: 1px solid #eee;
-      border-radius: 20px;
+   .image img {
+      max-width: 100%;
+      height: auto;
    }
 </style>

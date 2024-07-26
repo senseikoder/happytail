@@ -239,9 +239,9 @@ i {
 	font-style: italic;
 }
 
-p {
-	margin: 0 0 _size(element-margin) 0;
-}
+// p {
+// 	margin: 0 0 10px 0;
+// }
 
 h1,
 h2,
@@ -403,7 +403,7 @@ code {
 	}
 
 	&.medium {
-		width: (_size(container-width) * 0.75);
+		width: (_size(container-width) * 0.85);
 	}
 
 	&.large {
@@ -688,7 +688,7 @@ $box-padding: 3em;
 
 			section {
 				float: left;
-				padding: $box-padding;
+				padding: 2rem;
 				width: 50%;
 
 				:last-child {
@@ -1498,7 +1498,7 @@ body.landing {
 #banner {
 	background-attachment: fixed;
 	background-color: #666;
-	background-image: url('../images/banner-home1.webp');
+	background-image: url('../images/banner-home2.webp');
 	// background-image: url('../images/banner1.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
