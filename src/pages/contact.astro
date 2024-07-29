@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Image from "astro/components/Image.astro";
+import banner from "../images/banner-contact.webp";
 ---
 
 <Layout title="Contact :: Happy Tail Grooming">
@@ -11,6 +12,8 @@ import Image from "astro/components/Image.astro";
          <p>Tell us what you think about our little operation.</p>
       </header>
       <div class="box">
+         <span class="image featured"><Image src={banner} alt="FAQs" /></span>
+
          <form method="post" action="#">
             <div class="row gtr-50 gtr-uniform">
                <div class="col-6 col-12-mobilep">
@@ -59,14 +62,8 @@ import Image from "astro/components/Image.astro";
 </Layout>
 
 <style>
-   .credentials {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-   }
-
-   .credentials .bordered {
-      border: 1px solid #eee;
-      border-radius: 20px;
+   .image img {
+      max-width: 100%;
+      height: auto;
    }
 </style>
