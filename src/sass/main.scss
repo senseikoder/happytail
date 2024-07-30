@@ -697,6 +697,7 @@ $box-padding: 3em;
 
 				&:nth-child(2n) {
 					padding-right: 0;
+
 					&:before {
 						background: _palette(border);
 						content: '';
@@ -1140,7 +1141,7 @@ input[type="button"],
 	background-color: _palette(accent1, bg);
 	border-radius: _size(border-radius);
 	border: 0;
-	color: _palette(accent1, fg-bold);
+	color: _palette(bg);
 	cursor: pointer;
 	display: inline-block;
 	font-weight: _font(weight-bold);
@@ -1497,14 +1498,11 @@ body.landing {
 
 #banner {
 	background-attachment: fixed;
-	background-color: #666;
-	background-image: url('../images/banner-home2.webp');
-	// background-image: url('../images/banner1.jpg');
+	background-image: url('../images/banner-home3.webp');
 	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: #fff;
-	padding: 12em 0 20em 0;
+	background-repeat: repeat;
+	// background-size: cover;
+	padding: 12em 0 16em 0;
 	text-align: center;
 
 
@@ -1920,7 +1918,8 @@ body.landing {
 		top: 0;
 		width: _size(navPanel);
 		z-index: _misc(z-index-base) + 2;
-		background: darken(_palette(header, bg), 10);
+		background: rgb(162, 118, 191);
+		background: linear-gradient(180deg, rgba(162, 118, 191, 1) 0%, rgba(99, 182, 205, 1) 100%);
 		color: _palette(header, fg);
 
 		.link {
@@ -1932,13 +1931,15 @@ body.landing {
 			line-height: 44px;
 			padding: 0 1em 0 1em;
 			text-decoration: none;
+			font-size: large;
+			text-align: center;
 
 			&:first-child {
 				border-top: 0;
 			}
 
 			&.depth-0 {
-				color: _palette(header, fg-bold);
+				color: _palette(header, fg-light);
 			}
 
 			.indent-1 {
@@ -2270,4 +2271,14 @@ body.landing {
 		padding: 2.5em 1em 3em 1em;
 	}
 
+}
+
+
+
+#logoPanel {
+	width: 150px;
+	height: 160px;
+	margin: 50px auto;
+	background: url("../images/logo-happy-tail-grooming.webp");
+	background-size: 150px;
 }

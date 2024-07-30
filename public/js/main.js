@@ -38,7 +38,7 @@
 	// Button.
 	$(
 		'<div id="navButton">' +
-		'<a href="#navPanel" class="toggle"></a>' +
+		'<a href="#navPanel" class="toggle fa-solid fa-bars"></a>' +
 		'</div>'
 	)
 		.appendTo($body);
@@ -46,6 +46,7 @@
 	// Panel.
 	$(
 		'<div id="navPanel">' +
+		'<div id="logoPanel"></div>' +
 		'<nav>' +
 		$('#menu').navList() +
 		'</nav>' +

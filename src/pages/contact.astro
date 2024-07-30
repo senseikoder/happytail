@@ -9,7 +9,7 @@ import banner from "../images/banner-contact.webp";
    <section id="main" class="container medium">
       <header>
          <h2>Contact Us</h2>
-         <p>Tell us what you think about our little operation.</p>
+         <!-- <p>Tell us what you think about our little operation.</p> -->
       </header>
       <div class="box">
          <span class="image featured"><Image src={banner} alt="FAQs" /></span>
@@ -27,20 +27,39 @@ import banner from "../images/banner-contact.webp";
                </div>
                <div class="col-6 col-12-mobilep">
                   <input
+                     type="text"
+                     name="phone"
+                     id="phone"
+                     value=""
+                     placeholder="Phone"
+                  />
+               </div>
+               <div class="col-6 col-12-mobilep">
+                  <input
+                     type="text"
+                     name="name-pet"
+                     id="name-pet"
+                     value=""
+                     placeholder="Name of your pet"
+                  />
+               </div>
+               <div class="col-6 col-12-mobilep">
+                  <input
+                     type="text"
+                     name="breed"
+                     id="breed"
+                     value=""
+                     placeholder="Breed"
+                  />
+               </div>
+
+               <div class="col-12">
+                  <input
                      type="email"
                      name="email"
                      id="email"
                      value=""
                      placeholder="Email"
-                  />
-               </div>
-               <div class="col-12">
-                  <input
-                     type="text"
-                     name="subject"
-                     id="subject"
-                     value=""
-                     placeholder="Subject"
                   />
                </div>
                <div class="col-12">
