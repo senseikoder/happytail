@@ -403,11 +403,12 @@ code {
 	}
 
 	&.medium {
-		width: (_size(container-width) * 0.85);
+		width: (_size(container-width) * 0.75);
 	}
 
 	&.large {
-		width: (_size(container-width) * 1.25);
+		width: (_size(container-width) * .90);
+		// width: (_size(container-width) * 1.25);
 	}
 
 	&.xlarge {
@@ -1919,7 +1920,7 @@ body.landing {
 		width: _size(navPanel);
 		z-index: _misc(z-index-base) + 2;
 		background: rgb(162, 118, 191);
-		background: linear-gradient(180deg, rgba(162, 118, 191, 1) 0%, rgba(99, 182, 205, 1) 100%);
+		background: linear-gradient(180deg, #7557a9 0%, #5BC1C7 100%);
 		color: _palette(header, fg);
 
 		.link {
@@ -2271,14 +2272,4 @@ body.landing {
 		padding: 2.5em 1em 3em 1em;
 	}
 
-}
-
-
-
-#logoPanel {
-	width: 150px;
-	height: 160px;
-	margin: 50px auto;
-	background: url("../images/logo-happy-tail-grooming.webp");
-	background-size: 150px;
 }
