@@ -655,7 +655,7 @@ input[type="radio"] {
 
 /* Box */
 
-$box-padding: 3em;
+$box-padding: 2em;
 
 .box {
 	background: #fdfdfd;
@@ -901,12 +901,22 @@ ul {
 	margin: 0 0 _size(element-margin) 0;
 	padding-left: 1em;
 
-	&.paw {
+	&.bone {
 		list-style: none;
 
 		i {
 			margin-right: .5rem;
 			color: _palette(purple);
+			font-size: small;
+		}
+	}
+
+	&.paw {
+		list-style: none;
+
+		i {
+			margin-right: .5rem;
+			color: _palette(accent2, bg);
 			font-size: small;
 		}
 	}
