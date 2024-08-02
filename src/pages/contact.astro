@@ -6,13 +6,42 @@ import banner from "../images/banner-contact.webp";
 
 <Layout title="Contact :: Happy Tail Grooming">
    <!-- Main -->
-   <section id="main" class="container medium">
+   <section id="main" class="container medium bg-wave">
       <header>
          <h2>Contact Us</h2>
          <!-- <p>Tell us what you think about our little operation.</p> -->
       </header>
       <div class="box">
          <span class="image featured"><Image src={banner} alt="FAQs" /></span>
+
+         <div class="info">
+            <div>
+               <h4>Business Hours</h4>
+               <ul>
+                  <li>Mon - Tue - Wed: Closed</li>
+
+                  <li>Thursday: 8:00 am - 5:00 pm</li>
+                  <li>Friday: 8:00 am - 5:00 pm</li>
+                  <li>Saturday: 8:00 am - 5:00 pm</li>
+                  <li>Sunday: 9:00 am - 5:00 pm</li>
+               </ul>
+            </div>
+            <div>
+               <h4>Contact Details</h4>
+               <ul class="iconos">
+                  <li>
+                     <i class="icon fa-solid fa-envelope"></i>
+                     <a href="mailto:info@happytailgrooming.com"
+                        >info@happytailgrooming.com</a
+                     >
+                  </li>
+                  <li>
+                     <i class="icon fa-solid fa-phone"></i>
+                     <a href="tel:862-253-72-17">862-253-72-17</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
 
          <form method="post" action="#">
             <div class="row gtr-50 gtr-uniform">
@@ -62,6 +91,28 @@ import banner from "../images/banner-contact.webp";
                      placeholder="Email"
                   />
                </div>
+
+               <div class="col-6 col-12-narrower">
+                  <label class="title">I prefer you contact me by: </label>
+                  <input type="checkbox" name="contact" value="Email" />
+                  <label>Email</label><br />
+                  <input type="checkbox" name="contact" value="Phone" />
+                  <label>Phone</label>
+                  <input type="checkbox" name="contact" value="Text" />
+                  <label>Text (using phone number above)</label>
+               </div>
+
+               <div class="col-6 col-12-narrower">
+                  <label class="title">How can we help? </label>
+
+                  <input type="radio" name="help" value="Email" />
+                  <label>I'd like to make an appointment</label>
+                  <input type="radio" name="help" value="Phone" />
+                  <label>I'd like to know more about your services</label>
+                  <input type="radio" name="help" value="Text" />
+                  <label>I'd just like to contact you</label>
+               </div>
+
                <div class="col-12">
                   <textarea
                      name="message"
@@ -78,11 +129,28 @@ import banner from "../images/banner-contact.webp";
          </form>
       </div>
    </section>
-</Layout>
 
-<style>
-   .image img {
-      max-width: 100%;
-      height: auto;
-   }
-</style>
+   <style lang="scss">
+      .image img {
+         max-width: 100%;
+         height: auto;
+      }
+
+      .iconos {
+         list-style: none;
+      }
+      .icon {
+         color: #56368a;
+      }
+
+      .info {
+         display: flex;
+         gap: 50px;
+      }
+
+      .title {
+         font-weight: 500;
+         font-size: large;
+      }
+   </style>
+</Layout>

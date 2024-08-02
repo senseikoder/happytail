@@ -2,7 +2,7 @@
    width: 150px;
    height: 160px;
    margin: 50px auto;
-   background: url("../images/logo-happy-tail-grooming.webp");
+   background: url("../images/logo_Happy_Tail_Grooming_mobile.webp");
    background-size: 150px;
 }
 
@@ -10,7 +10,7 @@
 #page-wrapper {
    padding-top: 3em;
 
-   &:has(.bg-faq), &:has(.bg-gallery) {
+   &:has(.bg-wave) {
       background-repeat: no-repeat;
       background-position: right 3em, left 3em;
       background-size: 20%;
