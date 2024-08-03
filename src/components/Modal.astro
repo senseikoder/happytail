@@ -1,0 +1,51 @@
+---
+const { id, open } = Astro.props;
+---
+
+<style lang="scss">
+   dialog {
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border: 0;
+      padding: 1rem;
+      border-radius: 12px;
+
+      &::backdrop {
+         position: fixed;
+         top: 0px;
+         right: 0px;
+         bottom: 0px;
+         left: 0px;
+         background: rgba(60, 60, 60, 0.6);
+      }
+   }
+
+   .close-modal {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+   }
+
+   form {
+      margin: 0;
+   }
+
+   .button {
+      padding-inline: 1em;
+   }
+</style>
+
+<dialog id="dialog">
+   <slot name="main" />
+   <form method="dialog">
+      <button class="close-modal button alt">✖️</button>
+   </form>
+</dialog>
+
+<script>
+   setTimeout(() => {
+      window.dialog.showModal();
+   }, 4000);
+</script>

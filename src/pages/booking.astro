@@ -1,0 +1,66 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Image from "astro/components/Image.astro";
+import banner from "../images/banner-book.webp";
+---
+
+<Layout title="FAQ :: Happy Tail Grooming">
+   <!-- Main -->
+   <section id="main" class="container medium bg-wave">
+      <header>
+         <h2>Book Now</h2>
+      </header>
+      <div class="box">
+         <span class="image featured"><Image src={banner} alt="FAQs" /></span>
+
+         <ul class="paw">
+            <li>
+               <i class="fa-solid fa-paw"></i>
+               The new client form and agreement must be completed in its entirety
+               before the first appointment.
+            </li>
+            <li>
+               <i class="fa-solid fa-paw"></i>
+               <b>Remote Service Fee:</b> A $15 convenience fee is automatically
+               charged for all travel appointments
+            </li>
+            <li>
+               <i class="fa-solid fa-paw"></i>
+               <b>Deposit:</b> $90 nonrefundable deposit fee is required to an appointment,
+               this fee will be applied automatically towards your grooming service
+            </li>
+            <li>
+               <i class="fa-solid fa-paw"></i>
+               <b>Early Cancellation Fee:</b> Any cancelation without notice, 5 days
+               prior to your scheduled appointment date, will be charged a fee equal
+               to 50% of the total services scheduled. An invoice will be sent for
+               payment and any unpaid invoices will be charged to the card on file
+               if not paid within 24 hours of the invoice issue date.
+            </li>
+            <li>
+               <i class="fa-solid fa-paw"></i>
+               <b>Same day cancellation:</b> All day "of"service cancellations will
+               result in the client being charged 100% of the total services scheduled.
+               An invoice will be sent for payment and any unpaid invoices will be
+               charged to the card on file if not paid within 24 hours of the invoice
+               issue date
+            </li>
+         </ul>
+
+         <p class="align-center">
+            <a
+               href="https://form.moego.pet/go/form?formId=540deb13e9054d818815b8f107b0bcbe"
+               class="button special"
+               target="_blank">Book now</a
+            >
+         </p>
+      </div>
+   </section>
+</Layout>
+
+<style>
+   .image img {
+      max-width: 100%;
+      height: auto;
+   }
+</style>

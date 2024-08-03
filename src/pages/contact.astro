@@ -17,9 +17,8 @@ import banner from "../images/banner-contact.webp";
          <div class="info">
             <div>
                <h4>Business Hours</h4>
-               <ul>
+               <ul class="alt">
                   <li>Mon - Tue - Wed: Closed</li>
-
                   <li>Thursday: 8:00 am - 5:00 pm</li>
                   <li>Friday: 8:00 am - 5:00 pm</li>
                   <li>Saturday: 8:00 am - 5:00 pm</li>
@@ -37,11 +36,13 @@ import banner from "../images/banner-contact.webp";
                   </li>
                   <li>
                      <i class="icon fa-solid fa-phone"></i>
-                     <a href="tel:862-253-72-17">862-253-72-17</a>
+                     <a href="tel:862-253-72-17">862-253-7217</a>
                   </li>
                </ul>
             </div>
          </div>
+
+         <hr />
 
          <form method="post" action="#">
             <div class="row gtr-50 gtr-uniform">
@@ -141,6 +142,7 @@ import banner from "../images/banner-contact.webp";
       }
       .icon {
          color: #56368a;
+         margin-right: 1rem;
       }
 
       .info {
@@ -151,6 +153,12 @@ import banner from "../images/banner-contact.webp";
       .title {
          font-weight: 500;
          font-size: large;
+      }
+
+      @media (max-width: 768px) {
+         .info {
+            flex-direction: column;
+         }
       }
    </style>
 </Layout>

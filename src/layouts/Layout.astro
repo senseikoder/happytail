@@ -10,6 +10,7 @@ import "@fontsource/chewy";
 import "@fontsource-variable/open-sans";
 import "../sass/main.scss";
 import "../sass/custom.scss";
+import "../sass/lightbox.min.css"
 
 const isHome = Astro.url.pathname == "/";
 ---
@@ -23,6 +24,7 @@ const isHome = Astro.url.pathname == "/";
 			name="viewport"
 			content="width=device-width, initial-scale=1, user-scalable=no"
 		/>
+		<link rel="shortcut icon" href="mascota.svg" type="image/svg+xml">
 	</head>
 	<body class:list={["is-preload", { landing: isHome }]}>
 		<div id="page-wrapper">
@@ -38,6 +40,7 @@ const isHome = Astro.url.pathname == "/";
 		<script is:inline src="/js/breakpoints.min.js"></script>
 		<script is:inline src="/js/browser.min.js"></script>
 		<script is:inline src="/js/jquery.scrollex.min.js"></script>
+		<script is:inline src="/js/lightbox.min.js"></script>
 		<script is:inline src="/js/util.js"></script>
 		<script is:inline src="/js/main.js"></script>
 	</body>

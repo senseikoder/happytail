@@ -7,7 +7,8 @@ import northLogo from "../images/north-ca.jpg";
 import southLogo from "../images/south-ca__.jpg";
 import cred0 from "../images/credentials0.webp";
 import cred1 from "../images/credentials1.webp";
-import cred2 from "../images/credentials2.webp";
+import publiModal from "../images/publi-modal.webp";
+import Modal from "../components/Modal.astro";
 ---
 
 <Layout title="Home Happy Tail Grooming">
@@ -146,6 +147,8 @@ import cred2 from "../images/credentials2.webp";
 						</figure>
 					</div>
 
+					<br />
+
 					<ul class="actions special">
 						<li><a href="#" class="button alt">See More</a></li>
 					</ul>
@@ -153,6 +156,15 @@ import cred2 from "../images/credentials2.webp";
 			</div>
 		</div>
 	</section>
+
+	<Modal id="dialog" open="Open modal">
+		<main slot="main">
+			<Image src={publiModal} alt="Ads Happy" />
+		</main>
+		
+	</Modal>
+
+
 
 	<!-- CTA -->
 	<!-- <section id="cta">
@@ -195,7 +207,6 @@ import cred2 from "../images/credentials2.webp";
 	}
 
 	@media (max-width: 768px) {
-
 		.logo img {
 			max-width: 300px;
 			height: auto;

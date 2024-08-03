@@ -1397,7 +1397,7 @@ body.landing {
 		position: absolute;
 
 		h1 {
-			color: _palette(header, bg);
+			color: _palette(purple);
 		}
 
 		nav {
@@ -1900,7 +1900,7 @@ body.landing {
 			outline: 0;
 
 			&:before {
-				background: rgba(192, 192, 192, 0.75);
+				background: #5ec1c67e;
 				border-radius: _size(border-radius);
 				color: #fff;
 				content: '\f0c9';
