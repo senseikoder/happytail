@@ -9,11 +9,11 @@ const { id, open } = Astro.props;
    </form>
 </dialog>
 
-<script>
+<script is:inline>
    // Función para establecer una cookie con un valor y un tiempo de expiración en días
    function setCookie(name, value, days) {
       const date = new Date();
-      date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+      date.setTime(date.getTime() + days * 24 * 60 * 60);
       const expires = "expires=" + date.toUTCString();
       document.cookie = name + "=" + value + ";" + expires + ";path=/";
    }
@@ -39,7 +39,7 @@ const { id, open } = Astro.props;
       if (!getCookie("modalClosed")) {
          setTimeout(() => {
             window.dialog.showModal();
-         }, 4000);
+         }, 1000);
       }
    });
 
