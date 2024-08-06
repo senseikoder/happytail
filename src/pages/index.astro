@@ -158,10 +158,9 @@ import Modal from "../components/Modal.astro";
 	</section>
 
 	<Modal id="dialog" open="Open modal">
-		<main slot="main">
+		<section>
 			<Image src={publiModal} alt="Ads Happy" />
-		</main>
-		
+		</section>
 	</Modal>
 
 
@@ -204,6 +203,11 @@ import Modal from "../components/Modal.astro";
 	.credentials .bordered {
 		border: 1px solid #eee;
 		border-radius: 20px;
+	}
+
+	section img {
+		max-width: 100%;
+		height: auto;
 	}
 
 	@media (max-width: 768px) {

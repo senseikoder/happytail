@@ -2,6 +2,53 @@
 const { id, open } = Astro.props;
 ---
 
+<dialog id="dialog">
+   <slot />
+   <form method="dialog">
+      <button class="close-modal button alt">✖️</button>
+   </form>
+</dialog>
+
+<script>
+   // Función para establecer una cookie con un valor y un tiempo de expiración en días
+   function setCookie(name, value, days) {
+      const date = new Date();
+      date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+      const expires = "expires=" + date.toUTCString();
+      document.cookie = name + "=" + value + ";" + expires + ";path=/";
+   }
+
+   // Función para obtener el valor de una cookie
+   function getCookie(name) {
+      const nameEQ = name + "=";
+      const ca = document.cookie.split(";");
+      for (let i = 0; i < ca.length; i++) {
+         let c = ca[i];
+         while (c.charAt(0) == " ") {
+            c = c.substring(1, c.length);
+         }
+         if (c.indexOf(nameEQ) == 0) {
+            return c.substring(nameEQ.length, c.length);
+         }
+      }
+      return null;
+   }
+
+   // Al cargar la página, comprobamos si la cookie existe
+   window.addEventListener("DOMContentLoaded", () => {
+      if (!getCookie("modalClosed")) {
+         setTimeout(() => {
+            window.dialog.showModal();
+         }, 4000);
+      }
+   });
+
+   // Cuando se cierra el modal, establecemos la cookie
+   document.querySelector(".close-modal").addEventListener("click", () => {
+      setCookie("modalClosed", "true", 2); // 2 días
+   });
+</script>
+
 <style lang="scss">
    dialog {
       position: fixed;
@@ -35,17 +82,14 @@ const { id, open } = Astro.props;
    .button {
       padding-inline: 1em;
    }
+
+   @media (max-width: 768px) {
+      dialog {
+         position: fixed;
+         left: 0;
+         top: 0;
+         transform: translate(0);
+         padding: 0.5rem;
+      }
+   }
 </style>
-
-<dialog id="dialog">
-   <slot name="main" />
-   <form method="dialog">
-      <button class="close-modal button alt">✖️</button>
-   </form>
-</dialog>
-
-<script>
-   setTimeout(() => {
-      window.dialog.showModal();
-   }, 4000);
-</script>
