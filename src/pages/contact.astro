@@ -44,7 +44,7 @@ import banner from "../images/banner-contact.webp";
 
          <hr />
 
-         <form method="post" id="contacto">
+         <form id="contacto" method="post">
             <div class="row gtr-50 gtr-uniform">
                <div class="col-6 col-12-mobilep">
                   <input
@@ -52,7 +52,6 @@ import banner from "../images/banner-contact.webp";
                      id="nameRokh4m"
                      value=""
                      placeholder="Name"
-                     required
                   />
                </div>
                <div class="col-6 col-12-mobilep">
@@ -61,7 +60,6 @@ import banner from "../images/banner-contact.webp";
                      id="phoneRokh4m"
                      value=""
                      placeholder="Phone"
-                     required
                   />
                </div>
                <div class="col-6 col-12-mobilep">
@@ -84,7 +82,6 @@ import banner from "../images/banner-contact.webp";
                <div class="col-12">
                   <input
                      type="email"
-                     name="email"
                      id="emailRokh4m"
                      value=""
                      placeholder="Email"
@@ -93,23 +90,60 @@ import banner from "../images/banner-contact.webp";
 
                <div class="col-6 col-12-narrower">
                   <label class="title">I prefer you contact me by: </label>
-                  <input type="checkbox" name="contact" value="Email" />
-                  <label>Email</label><br />
-                  <input type="checkbox" name="contact" value="Phone" />
-                  <label>Phone</label>
-                  <input type="checkbox" name="contact" value="Text" />
-                  <label>Text (using phone number above)</label>
+                  <input
+                     type="checkbox"
+                     id="contactEmail"
+                     name="contact"
+                     value="Email"
+                  />
+                  <label for="contactEmail">Email</label><br />
+                  <input
+                     type="checkbox"
+                     id="contactPhone"
+                     name="contact"
+                     value="Phone"
+                  />
+                  <label for="contactPhone">Phone</label>
+                  <input
+                     type="checkbox"
+                     id="contactText"
+                     name="contact"
+                     value="Text"
+                  />
+                  <label for="contactText"
+                     >Text (using phone number above)</label
+                  >
                </div>
 
                <div class="col-6 col-12-narrower">
                   <label class="title">How can we help? </label>
 
                   <input type="radio" name="help" value="Email" />
-                  <label>I'd like to make an appointment</label>
-                  <input type="radio" name="help" value="Phone" />
-                  <label>I'd like to know more about your services</label>
-                  <input type="radio" name="help" value="Text" />
-                  <label>I'd just like to contact you</label>
+                  <input
+                     type="radio"
+                     id="helpAppointment"
+                     name="help"
+                     value="Appointment"
+                  />
+                  <label for="helpAppointment"
+                     >I'd like to make an appointment</label
+                  >
+                  <input
+                     type="radio"
+                     id="helpServices"
+                     name="help"
+                     value="Services"
+                  />
+                  <label for="helpServices"
+                     >I'd like to know more about your services</label
+                  >
+                  <input
+                     type="radio"
+                     id="helpContact"
+                     name="help"
+                     value="Contact"
+                  />
+                  <label for="helpContact">I'd just like to contact you</label>
                </div>
 
                <div class="col-12">
@@ -140,22 +174,22 @@ import banner from "../images/banner-contact.webp";
                </div>
 
                <div class="col-12">
-                  <ul class="actions special">
-                     <li><input type="submit" value="Send Message" /></li>
-                  </ul>
+                  <div class="actions special align-center">
+                     <input type="submit" value="Send Message" />
+                  </div>
                </div>
             </div>
          </form>
+
+         <div class="notification is-hidden align-center">
+            <!-- <button class="delete"></button> -->
+            <span class="text"></span>
+         </div>
       </div>
    </section>
 
-   <div class="notification is-hidden">
-      <!-- <button class="delete"></button> -->
-      <span class="text"></span>
-   </div>
-
    <script>
-      document.addEventListener("astro:page-load", () => {
+      document.addEventListener("DOMContentLoaded", () => {
          const form = document.querySelector("#contacto");
 
          if (!form) return;
@@ -163,26 +197,48 @@ import banner from "../images/banner-contact.webp";
          const nombre = document.querySelector("#nameRokh4m");
          const telf = document.querySelector("#phoneRokh4m");
          const email = document.querySelector("#emailRokh4m");
-         const mensaje = document.querySelector("#messageZhyr7");
+         const nombremascota = document.querySelector("#namePetRokh4m");
+         const razamascota = document.querySelector("#breedRokh4m");
+         const mensaje = document.querySelector("#messageRokh4m");
+
+         const contactEmail = document.querySelector("#contactEmail");
+         const contactPhone = document.querySelector("#contactPhone");
+         const contactText = document.querySelector("#contactText");
+
+         const helpOptions = document.querySelectorAll("input[name='help']");
 
          const name = document.querySelector("#name");
          const nickname = document.querySelector("#nickname");
          const notif = document.querySelector(".notification");
 
-         form?.addEventListener("submit", async (event) => {
+         form.addEventListener("submit", async (event) => {
             event.preventDefault();
             if (!name.value && !nickname.value) {
+               let contactMethods = [];
+               if (contactEmail.checked) contactMethods.push("Email");
+               if (contactPhone.checked) contactMethods.push("Phone");
+               if (contactText.checked) contactMethods.push("Text");
+
+               let helpOption = "";
+               helpOptions.forEach((option) => {
+                  if (option.checked) helpOption = option.value;
+               });
+
                const cuerpo = `<h3>Contact Details</h3>
                            <p><b>Name:</b> ${nombre.value}</p>
                            <p><b>Contact Phone:</b> ${telf.value}</p>
                            <p><b>Email:</b> ${email.value}</p>
+                           <p><b>Pet Name:</b> ${nombremascota.value}</p>
+                           <p><b>Breed:</b> ${razamascota.value}</p>
+                           <p><b>Preferred Contact Methods:</b> ${contactMethods.join(", ")}</p>
+                           <p><b>How can we help:</b> ${helpOption}</p>
                            <p><b>Message:</b> ${mensaje.value}</p>
                            <br><br>
-                           <p>This message was sent from myhealthfair.com</p>`;
+                           <p>This message was sent from happytailgrooming.com</p>`;
 
                const emailData = {
-                  from: "info@happytailgrooming.com",
-                  to: ["molina.frank@outlook.com"],
+                  from: "web@happytailgrooming.com",
+                  to: ["info@happytailgrooming.com"],
                   subject: "Contact Web Form",
                   html: cuerpo,
                };
@@ -196,27 +252,25 @@ import banner from "../images/banner-contact.webp";
                });
 
                if (res.ok) {
-                  notif.classList.toggle("is-success");
                   notif.classList.toggle("is-hidden");
                   notif.lastElementChild.textContent =
                      "Your message was sent! 👍";
                } else {
                   const error = await res.json();
                   console.error("Error:", error);
-                  notif.lastElementChild.textContent = "Oh sorry 🙁";
+                  notif.lastElementChild.textContent = "Oh sorry 🙁, try again later";
                   notif.classList.toggle("is-hidden");
-                  notif.classList.toggle("is-danger");
                }
             }
 
             setTimeout(() => {
                notif.classList.toggle("is-hidden");
-               notif.classList.remove("is-danger");
-               notif.classList.remove("is-success");
 
                nombre.value = "";
                telf.value = "";
                email.value = "";
+               nombremascota.value = "";
+               razamascota.value = "";
                mensaje.value = "";
             }, 2000);
          });

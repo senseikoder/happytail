@@ -602,10 +602,11 @@ input[type="radio"] {
 
 	&:checked+label {
 		&:before {
-			background: _palette(accent1, bg);
-			border-color: _palette(accent1, bg);
+			background: _palette(accent2, fg-light);
+			border-color: _palette(accent2, bg);
 			color: _palette(accent2, fg-bold);
-			content: '\f00c';
+			content: '✔️';
+			line-height: 1rem;
 		}
 	}
 
