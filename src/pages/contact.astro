@@ -253,7 +253,7 @@ import banner from "../images/banner-contact.webp";
 
                if (res.ok) {
                   notif.classList.toggle("is-hidden");
-                  notif.lastElementChild.textContent =
+                  notif.lastElementChild.innerHTML =
                      "Your message was sent! 👍<br>Please Allow up to 24 hours for a response";
                } else {
                   const error = await res.json();
