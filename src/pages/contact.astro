@@ -254,11 +254,12 @@ import banner from "../images/banner-contact.webp";
                if (res.ok) {
                   notif.classList.toggle("is-hidden");
                   notif.lastElementChild.textContent =
-                     "Your message was sent! 👍";
+                     "Your message was sent! 👍<br>Please Allow up to 24 hours for a response";
                } else {
                   const error = await res.json();
                   console.error("Error:", error);
-                  notif.lastElementChild.textContent = "Oh sorry 🙁, try again later";
+                  notif.lastElementChild.textContent =
+                     "Oh sorry 🙁, try again later";
                   notif.classList.toggle("is-hidden");
                }
             }

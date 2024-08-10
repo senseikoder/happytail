@@ -9,6 +9,8 @@ import cred0 from "../images/credentials0.webp";
 import cred1 from "../images/credentials1.webp";
 import publiModal from "../images/publi-modal.webp";
 import Modal from "../components/Modal.astro";
+
+import picCathe from "../images/catherine-toro-owner.webp";
 ---
 
 <Layout title="Home Happy Tail Grooming">
@@ -57,15 +59,15 @@ import Modal from "../components/Modal.astro";
 					Thank you, I look forward to hearing from you.
 				</p>
 			</header>
-			<span class="image featured">
-				<!-- <img src="../images/pic01.jpg" alt="" /> -->
-			</span>
 		</section>
 
 		<section class="box special">
 			<header class="major">
 				<h2>Catherine Toro</h2>
 				<h2>Owner / Founder & Professional Dog Groomer</h2>
+				<span class="image featured">
+					<Image src={picCathe} alt="" />
+				</span>
 				<p>
 					Most of my adult life has revolved around my love of dogs. My
 					inspiration to enter the field of pet care began when I adopted
@@ -162,8 +164,6 @@ import Modal from "../components/Modal.astro";
 			<Image src={publiModal} alt="Ads Happy" />
 		</section>
 	</Modal>
-
-
 
 	<!-- CTA -->
 	<!-- <section id="cta">
