@@ -46,6 +46,23 @@
 	// Panel.
 	$(
 		'<div id="navPanel">' +
+		`<ul class="icons">
+			<li>
+				<a
+					href="https://www.facebook.com/profile.php?id=61561424875308"
+					class="icon brands fa-facebook-f"
+					target="_blank"><span class="label">Facebook</span></a
+				>
+			</li>
+			<li>
+				<a
+					href="https://www.instagram.com/happytail_grooming"
+					class="icon brands fa-instagram"
+					target="_blank"
+					><span class="label">Instagram</span></a
+				>
+			</li>
+		</ul>` +
 		'<div id="logoPanel"></div>' +
 		'<nav>' +
 		$('#menu').navList() +
