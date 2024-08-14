@@ -956,7 +956,7 @@ ul {
 			}
 
 			.icon {
-				color: inherit;
+				color: _palette(accent1, bg);
 
 				&:before {
 					font-size: 1.75em;
@@ -1607,7 +1607,7 @@ body.landing {
 	.icons {
 		a {
 			@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
-			opacity: 0.35;
+			// opacity: 0.35;
 
 			&:hover {
 				opacity: 0.75;
