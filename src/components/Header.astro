@@ -1,12 +1,22 @@
 ---
 import NavBar from "../components/NavBar.astro";
 const isHome = Astro.url.pathname == "/";
+const isLinks = Astro.url.pathname == "/links";
 ---
 
 <!-- Header -->
-<header id="header" class:list={["reveal", { alt: isHome }]}>
-   <h1>Happy Tail Grooming</h1>
 
-   <NavBar />
-</header>
+{
+   !isLinks 
+   ?
+      <header id="header" 
+         class:list={["reveal", { alt: isHome }, { links: isLinks }]}
+      >
+         <h1>Happy Tail Grooming</h1>
+         <NavBar />
+      </header>
+   : 
+      null
+   }
+   
 

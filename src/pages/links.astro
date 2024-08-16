@@ -1,0 +1,79 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Image from "astro/components/Image.astro";
+import logoHappy from "../images/logo-happy-tail-grooming.webp";
+---
+
+<Layout title="FAQ :: Happy Tail Grooming">
+   <!-- Main -->
+   <section id="main" class="container medium bg-links">
+      <header class="align-center">
+         <div class="logo">
+         <Image src={logoHappy} alt="Logo Happy Tail Grooming" width="250" />
+         </div>
+      </header>
+      <div class="box">
+       
+         <ul class="links">
+            <li>
+   
+               <a
+               href="/"
+               class="button primary fit"
+               target="_blank">Website</a
+               >
+            </li>
+   
+            <li>
+   
+               <a
+               href="#"
+               class="button primary fit"
+               target="_blank">Facebook</a
+               >
+            </li>
+            <li>   
+               <a
+               href="#"
+               class="button primary fit"
+               target="_blank">Instagram</a
+               >
+            </li>
+            <li>   
+               <a
+               href="#"
+               class="button primary fit"
+               target="_blank">Reviews</a
+               >
+            </li>
+            <li>   
+               <a
+               href="#"
+               class="button primary fit"
+               target="_blank">Email Us</a
+               >
+            </li>
+         </ul>
+
+		</div>
+
+
+   </section>
+</Layout>
+
+<style>
+
+   .links {
+      list-style: none;
+      padding: 0;
+   }
+
+   .links li {
+      margin-bottom: 1.4rem;
+   }
+
+   .image img {
+      max-width: 100%;
+      height: auto;
+   }
+</style>

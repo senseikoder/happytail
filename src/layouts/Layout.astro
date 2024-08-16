@@ -25,6 +25,25 @@ const isHome = Astro.url.pathname == "/";
 			content="width=device-width, initial-scale=1, user-scalable=no"
 		/>
 		<link rel="shortcut icon" href="favicon.png" type="image/png">
+
+		<meta name="title" content="Happy Tail Grooming" />
+		<meta name="description" content="We Pamper your pet because their deserve it" />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://happytailgrooming.com/" />
+		<meta property="og:title" content="Home Happy Tail Grooming" />
+		<meta property="og:description" content="We Pamper your pet because their deserve it" />
+		<meta property="og:image" content="/images/logo-happy-tail-grooming.webp" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://happytailgrooming.com/" />
+		<meta property="twitter:title" content="Home Happy Tail Grooming" />
+		<meta property="twitter:description" content="We Pamper your pet because their deserve it" />
+		<meta property="twitter:image" content="/images/logo-happy-tail-grooming.webp" />
+
+
 	</head>
 	<body class:list={["is-preload", { landing: isHome }]}>
 		<div id="page-wrapper">

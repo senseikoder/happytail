@@ -1218,7 +1218,7 @@ input[type="button"],
 
 	&.primary {
 		background-color: _palette(accent2, bg);
-		color: _palette(accent2, fg-bold) !important;
+		// color: _palette(accent2, fg-bold) !important;
 
 		&:hover {
 			background-color: lighten(_palette(accent2, bg), 5);
