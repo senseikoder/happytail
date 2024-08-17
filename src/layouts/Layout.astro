@@ -11,6 +11,7 @@ import "@fontsource-variable/open-sans";
 import "../sass/main.scss";
 import "../sass/custom.scss";
 import "../sass/lightbox.min.css"
+import socialLogo from "../images/social-logo-HTG.webp"
 
 const isHome = Astro.url.pathname == "/";
 ---
@@ -34,14 +35,14 @@ const isHome = Astro.url.pathname == "/";
 		<meta property="og:url" content="https://happytailgrooming.com/" />
 		<meta property="og:title" content="Home Happy Tail Grooming" />
 		<meta property="og:description" content="We Pamper your pet because their deserve it" />
-		<meta property="og:image" content="/images/logo-happy-tail-grooming.webp" />
+		<meta property="og:image" content={socialLogo.src} />
 
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image" />
 		<meta property="twitter:url" content="https://happytailgrooming.com/" />
 		<meta property="twitter:title" content="Home Happy Tail Grooming" />
 		<meta property="twitter:description" content="We Pamper your pet because their deserve it" />
-		<meta property="twitter:image" content="/images/logo-happy-tail-grooming.webp" />
+		<meta property="twitter:image" content={socialLogo.src} />
 
 
 	</head>
