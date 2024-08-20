@@ -14,6 +14,7 @@ import "../sass/lightbox.min.css"
 import socialLogo from "../images/social-logo-HTG.webp"
 
 const isHome = Astro.url.pathname == "/";
+const isLinks = Astro.url.pathname.includes('links')
 ---
 
 <!doctype html>
@@ -57,7 +58,7 @@ const isHome = Astro.url.pathname == "/";
 
 
 	</head>
-	<body class:list={["is-preload", { landing: isHome }]}>
+	<body class:list={["is-preload", { landing: isHome, links: isLinks }]}>
 		<div id="page-wrapper">
 			<Header />
 
