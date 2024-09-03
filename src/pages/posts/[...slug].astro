@@ -12,6 +12,8 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+console.log(entry);
+
 ---
 <Layout title="Blog :: Happy Tail Grooming">
 
@@ -22,7 +24,7 @@ const { Content } = await entry.render();
     </header>
 
     <div class="box">
-         <span class="image featured"><img src={entry.data.image} /></span>
+         <span class="image featured"><img src={entry.data.image} alt="" /></span>
          <Content />
          </div>
 

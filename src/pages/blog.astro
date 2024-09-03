@@ -17,18 +17,18 @@ const blogEntries = await getCollection('posts');
       </header>
       
       <div class="box">
-         <span class="image featured"><Image src={banner} alt="FAQs" /></span>
 
-         <ul>
-            {blogEntries.map(post => (
-               <li>
-                  <a href={`/posts/${post.slug}`}>{post.data.title}</a>
-                  <time datetime={post.data.date.toISOString()}>
-                  {post.data.date.toDateString()}
-                  </time>
-               </li>
-            ))}
-         </ul>
+    
+         {blogEntries.map(post => (
+            <div>
+               <span class="image featured"><img src={post.data.image} alt="" /></span>
+               <a href={`/posts/${post.slug}`}>{post.data.title}</a>
+               <time datetime={post.data.date.toISOString()}>
+               {post.data.date.toDateString()}
+               </time>
+            </div>
+         ))}
+   
         
       </div>
    </section>
