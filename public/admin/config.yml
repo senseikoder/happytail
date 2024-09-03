@@ -2,9 +2,13 @@ backend:
   name: git-gateway
   repo: senseikoder/happy-tail
   branch: master # Branch to update (optional; defaults to master)
+  
 media_folder: "src/uploads"
+public_folder: "uploads"
+
 logo_url: "https://i.postimg.cc/1t8phTCg/logo-Happy-Tail-Grooming-mobile.png"
 display_url: https://happytailgrooming.com
+
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
