@@ -4,7 +4,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
   
 media_folder: "public/uploads"
-public_folder: "/uploads"
+public_folder: "uploads"
 
 logo_url: "https://i.postimg.cc/1t8phTCg/logo-Happy-Tail-Grooming-mobile.png"
 display_url: https://happytailgrooming.com
