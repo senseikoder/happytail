@@ -5,7 +5,7 @@ import banner from "../images/banner-faq.webp";
 
 
 import { getCollection } from 'astro:content';
-const blogEntries = await getCollection('blog');
+const blogEntries = await getCollection('posts');
 
 ---
 
@@ -15,20 +15,20 @@ const blogEntries = await getCollection('blog');
       <header>
          <h2>Latest articles</h2>
       </header>
+      
       <div class="box">
          <span class="image featured"><Image src={banner} alt="FAQs" /></span>
 
-
-        <ul>
-  {blogEntries.map(blogPostEntry => (
-    <li>
-      <a href={`/my-blog-url/${blogPostEntry.slug}`}>{blogPostEntry.data.title}</a>
-      <time datetime={blogPostEntry.data.publishedDate.toISOString()}>
-        {blogPostEntry.data.publishedDate.toDateString()}
-      </time>
-    </li>
-  ))}
-</ul>
+         <ul>
+            {blogEntries.map(post => (
+               <li>
+                  <a href={`/posts/${post.slug}`}>{post.data.title}</a>
+                  <time datetime={post.data.date.toISOString()}>
+                  {post.data.date.toDateString()}
+                  </time>
+               </li>
+            ))}
+         </ul>
         
       </div>
    </section>

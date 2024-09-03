@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from "../../layouts/Layout.astro";
+import Image from 'astro/components/Image.astro';
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('posts');
+  return blogEntries.map(entry => ({
+    params: { slug: entry.slug }, props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+<Layout title="Blog :: Happy Tail Grooming">
+
+  <section id="main" class="container">
+
+    <header>
+        <h2>{entry.data.title}</h2>
+    </header>
+
+    <div class="box">
+         <span class="image featured"><img src={entry.data.image.url} alt={entry.data.image.alt} /></span>
+         <Content />
+         </div>
+
+  </section>
+</Layout>
