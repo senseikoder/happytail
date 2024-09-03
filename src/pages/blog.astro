@@ -2,6 +2,11 @@
 import Layout from "../layouts/Layout.astro";
 import Image from "astro/components/Image.astro";
 import banner from "../images/banner-faq.webp";
+
+
+import { getCollection } from 'astro:content';
+const blogEntries = await getCollection('blog');
+
 ---
 
 <Layout title="FAQ :: Happy Tail Grooming">
@@ -14,20 +19,16 @@ import banner from "../images/banner-faq.webp";
          <span class="image featured"><Image src={banner} alt="FAQs" /></span>
 
 
-         <h4>Do I need water and electric?</h4>
-         <p>
-            No. Our van is fully self-contained mobile salons also equipped with
-            heat and air conditioning to keep your dog comfortable.
-         </p>
-
-         <h4>How do I schedule?</h4>
-         <p>
-            The easiest way to schedule is by clicking the "BOOK NOW" button on
-            our website. If you prefer to speak with someone, you can always
-            contact us. We will be happy to assist you with scheduling your
-            appointment!
-         </p>
-
+        <ul>
+  {blogEntries.map(blogPostEntry => (
+    <li>
+      <a href={`/my-blog-url/${blogPostEntry.slug}`}>{blogPostEntry.data.title}</a>
+      <time datetime={blogPostEntry.data.publishedDate.toISOString()}>
+        {blogPostEntry.data.publishedDate.toDateString()}
+      </time>
+    </li>
+  ))}
+</ul>
         
       </div>
    </section>
