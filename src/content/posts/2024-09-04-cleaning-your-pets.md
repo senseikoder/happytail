@@ -1,6 +1,6 @@
 ---
 title: Cleaning your pets
-date: 09/03/2024
+date: 2024-09-03T23:38:00.000Z
 image:
   url: uploads/grooming0.jpg
   alt: probando alt
