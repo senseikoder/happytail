@@ -1,0 +1,19 @@
+html,
+body {
+   color: #444;
+   font-size: 14px;
+   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+   padding: 20px;
+}
+
+div {
+   margin-block: 0.7rem;
+}
+
+img {
+   max-width: 100%;
+   /* margin-block: 1rem; */
+}

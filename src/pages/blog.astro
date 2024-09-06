@@ -11,26 +11,41 @@ const blogEntries = await getCollection('posts');
 
 <Layout title="Blog :: Happy Tail Grooming">
    <!-- Main -->
-   <section id="main" class="container medium bg-wave">
+   <section id="main" class="container medium bg-wave blog">
       <header>
          <h2>Latest articles</h2>
       </header>
       
-      <div class="box">
-
-    
+      <div class="row">
          {blogEntries.map(post => (
-            <div>
-               <span class="image featured"><img src={post.data.image} alt="" /></span>
-               <a href={`/posts/${post.slug}`}>{post.data.title}</a>
-               <time datetime={post.data.date.toISOString()}>
-               {post.data.date.toDateString()}
-               </time>
+            <div class="col-6">
+               <section class="box special">
+
+                  <span class="image featured">
+                     <img src={post.data.image.url} alt="" />
+                  </span>
+
+                  <h3>
+
+                     <a href={`/posts/${post.slug}`}>{post.data.title}</a>
+                  </h3>
+
+                  <time datetime={post.data.date.toISOString()}>
+                     {post.data.date.toLocaleDateString('en-US',{
+                        year: "numeric",
+                        month: "short",
+                        day: "numeric",
+                     })}
+                  </time>
+
+               </section>
             </div>
-         ))}
+            ))}
+      </div>
+      
+      
    
         
-      </div>
    </section>
 </Layout>
 
@@ -38,5 +53,9 @@ const blogEntries = await getCollection('posts');
    .image img {
       max-width: 100%;
       height: auto;
+   }
+
+   .blog time {
+      font-size: smaller;
    }
 </style>
