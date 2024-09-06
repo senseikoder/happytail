@@ -6,7 +6,7 @@ backend:
 media_folder: "public/uploads"
 public_folder: "/uploads"
 
-logo_url: "https://i.postimg.cc/1t8phTCg/logo-Happy-Tail-Grooming-mobile.png"
+logo_url: "https://i.postimg.cc/g059kDQZ/logo-Happy-Tail-Grooming-cms.png"
 display_url: https://happytailgrooming.com/blog
 
 collections:

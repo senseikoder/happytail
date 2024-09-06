@@ -5,7 +5,9 @@ import banner from "../images/banner-faq.webp";
 
 
 import { getCollection } from 'astro:content';
-const blogEntries = await getCollection('posts');
+const blogEntries = await getCollection('posts',  ({ data }) => {
+  return data.draft !== true
+})
 
 ---
 
