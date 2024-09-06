@@ -2,7 +2,7 @@
 title: Why it is important to Maintain Your Dog’s Nails
 date: 2024-09-05T20:43:00.000Z
 description: this is description
-slug: second-post
+slug: second-post-test
 image:
   url: uploads/img_8165.webp
   alt: doggy reading
