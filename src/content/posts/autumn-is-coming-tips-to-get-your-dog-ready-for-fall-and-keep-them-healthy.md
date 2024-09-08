@@ -1,11 +1,11 @@
 ---
 title: "Autumn Is Coming: Tips to Get Your Dog Ready for Fall and Keep Them Healthy  "
 date: 2024-09-08T11:44:00.000Z
-description: xxxx
+description: Dummy text
 draft: true
 image:
   url: /uploads/img_1095.jpg
-  alt: Texta
+  alt: Textyx
 ---
 Fall is officially here! It’s a great time to get your dog outside for some fresh air, watch how the leaves fall from the trees and smells of the season. But there are a few things to keep in mind the next time to your furry friend head outside because maintaining your pet’s health during this time can ensure that they lead a happy life.
 
