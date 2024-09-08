@@ -24,3 +24,5 @@ Fall is officially here! It’s a great time to get your dog outside for some fr
 Keep an eye out for signs such as limping or their refused to do exercise, it's typical for dogs with arthritis or other joint problems to experience more discomfort once the temperature drops. 
 
 **Keep their nutritional needs in mind:** Dogs use more energy keeping warm in colder weather, so you may need to increase their food portions during fall and winter to help them keep warm, but keep in mind that be supervise by their vet.
+
+**Don’t forget shedding:** We tend to think that dogs shedding only in the spring or summer, but most of the dogs shedding on all seasons. It is recommended to brush frequently and give them frequent baths with de-shedding treatments that help to remove your dog's excess undercoat and keep the skin and coat healthy.
