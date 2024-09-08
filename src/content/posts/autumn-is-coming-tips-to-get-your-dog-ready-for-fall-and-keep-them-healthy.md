@@ -19,4 +19,8 @@ Fall is officially here! It’s a great time to get your dog outside for some fr
 
 **Be careful around mushrooms:** This time of year, mushrooms start popping up on forest floors and around your yard. While most of these fungi are safe to eat, others are highly toxic to your dog. Prevent your dog from ingesting them by supervising when there are playing or keeping them close during off-leash walks and hikes.
 
-**Keep them warm:** Most breeds are well-equipped to withstand cooler temperatures, but others like Chihuahuas, Greyhounds and Salukis they don't have enough fur to protect specially in the early mornings and late evenings when the temperature can drop quickly once fall hits, so don’t leave them out for extended periods of time and put a jacket on them when they go for long walks.
+**Keep them warm:** Most breeds are well-equipped to withstand cooler temperatures, but others like Chihuahuas, Greyhounds and Salukis they don't have enough fur to protect specially in the early mornings and late evenings when the temperature can drop quickly once fall hits, so don’t leave them out for extended periods of time and put a jacket on them when they go for long walks. 
+
+Keep an eye out for signs such as limping or their refused to do exercise, it's typical for dogs with arthritis or other joint problems to experience more discomfort once the temperature drops. 
+
+**Keep their nutritional needs in mind:** Dogs use more energy keeping warm in colder weather, so you may need to increase their food portions during fall and winter to help them keep warm, but keep in mind that be supervise by their vet.
