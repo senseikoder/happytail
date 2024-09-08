@@ -28,3 +28,5 @@ Keep an eye out for signs such as limping or their refused to do exercise, it's 
 **Don’t forget shedding:** We tend to think that dogs shedding only in the spring or summer, but most of the dogs shedding on all seasons. It is recommended to brush frequently and give them frequent baths with de-shedding treatments that help to remove your dog's excess undercoat and keep the skin and coat healthy.
 
 **Check for fleas & ticks:** The flea and tick season can last into late fall; therefore, many vets recommend year-round protection. Be careful when your dog play in fallen leaves, pests can survive in damp and cold environments. So, always check your dog thoroughly after returning from the outdoors.
+
+**Welcome autumn, keep this precautionary list for fall safety in the back of your mind and enjoy nature this season!**
