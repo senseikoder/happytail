@@ -5,7 +5,7 @@ description: Dummy text
 draft: true
 image:
   url: /uploads/_cf1faebb-f72f-4488-87a9-77d9494c0d00.jpeg
-  alt: Why grooming your dog is essential to their well being
+  alt: testyx
 ---
 Whether you do the grooming yourself or bring your pet to a professional groomer, the reasons why you need to groom your dog are numerous.
 
