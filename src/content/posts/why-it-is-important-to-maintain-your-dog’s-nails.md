@@ -4,7 +4,7 @@ date: 2024-09-04T21:30:00.000Z
 description: dummy text
 draft: false
 image:
-  url: /uploads/img_8296.jpg
+  url: /uploads/why-important-maintain-dogs-nails.jpeg
   alt: testyx
 ---
 Nail trimming is an essential part of dog grooming, trim nails are one clear sign of your dog’s good health and hygiene. 
