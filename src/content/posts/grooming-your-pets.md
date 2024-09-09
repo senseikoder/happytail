@@ -24,8 +24,6 @@ For more advanced tasks like expressing your dog's anal glands and cutting their
 3. Brushing their hair on a routine basis not all breeds need extensive fur care but routine brushing or furminating of your pet keep their coats clean, free of matting, and will decrease the amount of shed fur on your clothes, furniture, car, etc. Brushing should be a pleasant and relaxing activity for your dog and routine brushing will help them become accustom to this task.
 4. Positive emotional benefits for you and your pet. When you regularly groom your dog, they learn that letting you handle their body does not result in pain. When grooming becomes a pleasant task for both, dog and owner, it can be a great bonding activity, allowing you to strengthen your relationship with your pet. Besides, your dog will feel less stressed and love you even more.
 
-    
-
 **Why Having Your Dog Groomed By a Professionally is important**
 
 Many people groom their own dogs on a routine basis, but there are times that you should consider the services of a professional dog groomer. A certified groomer has the tools and knowledge to provide pets services that cannot always be performed at home.
