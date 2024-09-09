@@ -1,5 +1,5 @@
 ---
-title: Why it is important to Maintain Your Dog’s Nails
+title: Why it is Important to Maintain Your Dog’s Nails
 date: 2024-09-04T21:30:00.000Z
 description: Your Dog’s Nails
 draft: false
