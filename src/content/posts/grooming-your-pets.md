@@ -1,5 +1,5 @@
 ---
-title: Why grooming Your Dog Is Essential To Their Well Being
+title: Why Grooming Your Dog Is Essential To Their Well Being
 date: 2024-09-08T11:06:00.000Z
 description: Why grooming your dog
 draft: false
