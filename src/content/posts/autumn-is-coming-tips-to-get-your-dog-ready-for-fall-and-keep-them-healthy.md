@@ -2,7 +2,7 @@
 title: "Autumn Is Coming: Tips to Get Your Dog Ready for Fall and Keep Them Healthy  "
 date: 2024-09-08T11:44:00.000Z
 description: Dummy text
-draft: true
+draft: false
 image:
   url: /uploads/img_1095.jpg
   alt: Textyx
