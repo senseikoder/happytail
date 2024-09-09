@@ -1,5 +1,5 @@
 ---
-title: "Autumn Is Coming: Tips to Get Your Dog Ready for Fall and Keep Them Healthy  "
+title: "Autumn Is Coming: Tips To Get Your Dog Ready For Fall And Keep Them Healthy  "
 date: 2024-09-08T22:22:00.000Z
 description: "Tips to Get Your Dog Ready for Fall and Keep Them Healthy  "
 draft: false
