@@ -9,7 +9,7 @@ image:
 ---
 Fall is officially here! It’s a great time to get your dog outside for some fresh air, watch how the leaves fall from the trees and smells of the season. But there are a few things to keep in mind the next time to your furry friend head outside because maintaining your pet’s health during this time can ensure that they lead a happy life.
 
-**These basic tips will ensure that your dog has a safe, happy pumpkin-spice season:**
+### **These basic tips will ensure that your dog has a safe, happy pumpkin-spice season:**
 
 **Keep up with exercise:** Although the weather may be colder, it’s important to keep walking your dog. This will help to prevent any weight gain, as well as stop your dog from getting bored. As the weather changes, you could reduce the length of their walks.  
 
@@ -29,4 +29,4 @@ Keep an eye out for signs such as limping or their refused to do exercise, it's 
 
 **Check for fleas & ticks:** The flea and tick season can last into late fall; therefore, many vets recommend year-round protection. Be careful when your dog play in fallen leaves, pests can survive in damp and cold environments. So, always check your dog thoroughly after returning from the outdoors.
 
-**Welcome autumn, keep this precautionary list for fall safety in the back of your mind and enjoy nature this season!**
+#### **Welcome autumn, keep this precautionary list for fall safety in the back of your mind and enjoy nature this season!**
