@@ -23,9 +23,7 @@ This isn’t just an aesthetic problem: Compromising your dog’s weight distrib
 
 In extreme cases, overgrown nails can curve and grow into the pad of the foot. But even if they are not that out of control, long nails can get torn or split, which is very painful and, depending on the severity, and extreme conditions may need to be treated by a veterinarian which can be very costly for you and painful for your dog.
 
-
-
-**The Basics of Trimming Dog Nails**
+### **The Basics of Trimming Dog Nails**
 
 While some breeds are often shown with nails so short they can barely be seen, the most commonly accepted rule of thumb is that when a dog is standing, the nails should not make contact with the ground. If you can hear your dog coming, their nails are too long.
 
@@ -33,9 +31,7 @@ In addition to one nail at the end of each of the four toes usually found on eac
 
 Some dogs are born with dewclaws in the front only, others are born with dewclaws on every leg. If a dog has dewclaws, they need to be trimmed, in some cases even more often than nails that routinely touch the ground.
 
-
-
-**The Canine Toenail Quick**
+### **The Canine Toenail Quick**
 
 Running through the nail is a nerve and vein called the “quick.” Nicking or cutting this sensitive band of tissue is very painful for the dog.
 
@@ -45,9 +41,7 @@ You can’t see the quick in a black or dark-colored nail. With these nails, you
 
 If a dog’s feet have been neglected for months or even years, it might take a few weeks or months of routing cutting of the nails to get them to a healthy, pain-free length. if you cut your dogs nails on a regular basis, it should get easier for the dog to exercise. This is important because as your pet’s activity increases the more their nails will come into contact with the ground in a way that will help wear the nails down, this will help the nail to recede quickly.
 
-
-
-**Puppies and trimming nails** 
+### **Puppies and trimming nails**
 
 Start handling your puppy’s feet and trimming their nails when they’re young, so they become accustomed to the process.  
 
