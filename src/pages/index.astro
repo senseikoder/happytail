@@ -13,6 +13,8 @@ import publiModal from "../images/publi-modal.webp";
 import Modal from "../components/Modal.astro";
 
 import picCathe from "../images/catherine-toro-owner.webp";
+import Reviews from "../components/Reviews.astro";
+import "flickity/dist/flickity.min.css";
 ---
 
 <Layout title="Home Happy Tail Grooming" description="Happy Tail Grooming is a family owned and operated mobile grooming business which is solely dedicated to providing the best services available to our clients">
@@ -159,20 +161,12 @@ import picCathe from "../images/catherine-toro-owner.webp";
 
 					<br />
 
-					<ul class="actions special">
-						<li><a href="#" class="button alt">See More</a></li>
-					</ul>
+					
 				</section>
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="col-12">
-				<section class="box special">
-					<div class="embedsocial-widget" data-ref="a3c1d7abbbb930fb8dc8bbc1ba89bf8c"> <a href="https://embedsocial.com/google-reviews-widget/" title="Add Google reviews on a website" target="_blank" class="powered-by-es es-slider" > <img src="https://embedsocial.com/cdn/icon/embedsocial-logo.webp" alt="EmbedSocial" > <span> Google reviews widget </span> </a> </div> <script> (function(d, s, id) { var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/aht.js"; d.getElementsByTagName("head")[0].appendChild(js); }(document, "script", "EmbedSocialWidgetScript")); </script>
-				</section>
-			</div>
-		</div>
+		<Reviews />
 
 
 	</section>

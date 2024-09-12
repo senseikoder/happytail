@@ -1,0 +1,81 @@
+<div class="row">
+   <div class="col-12">
+      <section class="box special">
+
+         <h3>Our Google reviews</h3>
+
+         <br>
+
+         <div class="reviews">
+
+            <div class="item-carousel">
+               <p><span class="icon fa-solid fa-quote-left"></span>Happy tail grooming did an EXCELLENT job grooming my 15 year old shih-tzu. My dog was relaxed & looked so cute. Impressed with the skill, communication, timeliness & professionalism! Highly recommend.</p>
+               <h4>Mia Acosta</h4>
+            </div>
+
+            <div class="item-carousel">
+               <p><span class="icon fa-solid fa-quote-left"></span>Catherine has been grooming my black standard poodle, Splendor for about three years now. She does an amazing job. She makes her look like a show dog even though she is not. Above Catherine’s grooming skills what I really like and appreciate about Catherine is how much my dog loves her. You know when someone is treating your dog right. Splendor having a positive experience at the groomers is just as important to me as her haircut. I highly 100% recommend Catherine and Happy Tail Grooming.</p>
+               <h4>Mary Murchison</h4>
+            </div>
+         </div>
+
+         <br>
+         <br>
+      
+
+         <ul class="actions special">
+						<li><a href="https://www.google.com/search?hl=en-VE&gl=ve&q=Happy+Tail+Grooming&ludocid=14539977730869703738&lsig=AB86z5UJG007TWPcrjgNUh7hJ793#" target="_blank" class="button alt">See More</a></li>
+					</ul>
+
+      </section>
+   </div>
+</div>
+
+<script>
+   import Flickity from "flickity";
+
+   document.addEventListener("astro:page-load", () => {
+      const elem = document.querySelector(".reviews");
+      if (!elem) return;
+
+      let flkty = new Flickity(".reviews", {
+         draggable: true,
+         contain: true,
+         freeScroll: true,
+         wrapAround: true,
+         pageDots: true,
+      });
+   });
+</script>
+
+
+<style>
+
+   .reviews {
+      width: 80%;
+      margin: auto;
+   }
+
+   .icon {
+      margin-top: 2rem;
+   }
+
+
+   .icon::before {
+      color: #ccc;
+      position: relative;
+      left: 1rem;
+      bottom: 1.5rem;
+      font-size: xx-large;
+   }
+
+   .item-carousel {
+      width: 100%;
+      margin-right: 20px;
+      margin-bottom: 20px;
+   }
+
+   
+
+</style>
+         

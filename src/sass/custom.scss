@@ -102,6 +102,27 @@
 
 
 
+// SLider
+
+
+.flickity-button {
+   background: transparent !important;
+}
+
+.flickity-button-icon {
+   fill: #aaa !important;
+}
+
+.flickity-prev-next-button.previous {
+   left: -40px !important;
+}
+
+.flickity-prev-next-button.next {
+   right: -40px !important;
+}
+
+
+
 
 
 @media (max-width: 768px) {

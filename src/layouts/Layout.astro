@@ -14,6 +14,7 @@ import "../sass/main.scss";
 import "../sass/custom.scss";
 import "../sass/lightbox.min.css"
 import socialLogo from "../images/social-logo-HTG.webp"
+import ViewTransitions from "astro/components/ViewTransitions.astro";
 
 const isHome = Astro.url.pathname == "/";
 const isLinks = Astro.url.pathname.includes('links')
@@ -35,6 +36,7 @@ const isLinks = Astro.url.pathname.includes('links')
 
 		<title>{title}</title>
 		<meta charset="utf-8" />
+		<ViewTransitions />
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1, user-scalable=no"
