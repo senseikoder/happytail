@@ -9,13 +9,29 @@
          <div class="reviews">
 
             <div class="item-carousel">
-               <p><span class="icon fa-solid fa-quote-left"></span>Happy tail grooming did an EXCELLENT job grooming my 15 year old shih-tzu. My dog was relaxed & looked so cute. Impressed with the skill, communication, timeliness & professionalism! Highly recommend.</p>
+               <p><span class="icon fa-solid fa-quote-left"></span>Happy tail grooming did an EXCELLENT job grooming my 15 year old shih-tzu. My dog was relaxed & looked so cute. Impressed with the skill, communication, timeliness & professionalism! Highly recommend.<span class="icon fa-solid fa-quote-right"></span></p>
+               
                <h4>Mia Acosta</h4>
+
+               <div class="stars">
+                  <span class="icon fa-solid fa-star"></span>
+                  <span class="icon fa-solid fa-star"></span>
+                  <span class="icon fa-solid fa-star"></span>
+                  <span class="icon fa-solid fa-star"></span>
+                  <span class="icon fa-solid fa-star"></span>
+               </div>
             </div>
 
             <div class="item-carousel">
-               <p><span class="icon fa-solid fa-quote-left"></span>Catherine has been grooming my black standard poodle, Splendor for about three years now. She does an amazing job. She makes her look like a show dog even though she is not. Above Catherine’s grooming skills what I really like and appreciate about Catherine is how much my dog loves her. You know when someone is treating your dog right. Splendor having a positive experience at the groomers is just as important to me as her haircut. I highly 100% recommend Catherine and Happy Tail Grooming.</p>
+               <p><span class="icon fa-solid fa-quote-left"></span>Catherine has been grooming my black standard poodle, Splendor for about three years now. She does an amazing job. She makes her look like a show dog even though she is not. Above Catherine’s grooming skills what I really like and appreciate about Catherine is how much my dog loves her. You know when someone is treating your dog right. Splendor having a positive experience at the groomers is just as important to me as her haircut. I highly 100% recommend Catherine and Happy Tail Grooming.<span class="icon fa-solid fa-quote-right"></span></p>
                <h4>Mary Murchison</h4>
+               <div class="stars">
+                  <span class="icon fa-solid fa-star"></span>
+                  <span class="icon fa-solid fa-star"></span>
+                  <span class="icon fa-solid fa-star"></span>
+                  <span class="icon fa-solid fa-star"></span>
+                  <span class="icon fa-solid fa-star"></span>
+               </div>
             </div>
          </div>
 
@@ -52,30 +68,40 @@
 <style>
 
    .reviews {
-      width: 80%;
+      width: 85%;
       margin: auto;
    }
 
    .icon {
       margin-top: 2rem;
+      color: #ccc;
+      font-size: x-large;
+      display: inline;
    }
 
-
-   .icon::before {
-      color: #ccc;
+   .stars .icon {
+      color: #E91C7E;
+      font-size: larger;
+   }
+   
+   
+   .fa-quote-left::before {
+      position: relative;
+      left: -1rem;
+      bottom: 1rem;
+   }
+   .fa-quote-right::before {
       position: relative;
       left: 1rem;
-      bottom: 1.5rem;
-      font-size: xx-large;
+      bottom: .25rem;
    }
 
    .item-carousel {
       width: 100%;
+      height: auto;
+      padding: 3rem;
       margin-right: 20px;
       margin-bottom: 20px;
    }
-
-   
-
 </style>
          
