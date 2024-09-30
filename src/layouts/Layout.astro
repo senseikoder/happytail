@@ -35,6 +35,27 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 		gtag('config', 'G-RYM04B5MBL');
 		</script>
 
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16716320943">
+		</script>
+		<script is:inline>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'AW-16716320943');
+		</script>
+
+		<!-- Event snippet for Vista de página conversion page -->
+		<script is:inline>
+		gtag('event', 'conversion', {
+				'send_to': 'AW-16716320943/ogu-CMySwtcZEK-h-6I-',
+				'value': 1.0,
+				'currency': 'USD'
+		});
+		</script>
+
+
 
 		<title>{title}</title>
 		<meta charset="utf-8" />
