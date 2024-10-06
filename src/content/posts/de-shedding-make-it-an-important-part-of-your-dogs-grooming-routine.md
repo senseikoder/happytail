@@ -2,7 +2,7 @@
 title: "De-Shedding: Make It an Important Part of Your Dog’s Grooming Routine"
 date: 2024-10-06T14:08:00.000Z
 description: "De-Shedding: Make It an Important Part of Your Dog’s Grooming Routine"
-draft: true
+draft: false
 image:
   alt: mobile-dog-grooming
   url: /uploads/mobile-dog-grooming.webp
