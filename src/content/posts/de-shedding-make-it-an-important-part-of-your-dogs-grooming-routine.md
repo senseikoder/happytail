@@ -15,7 +15,7 @@ While dogs shed year-round, seasonal shedding happens twice a year. Once the wea
 
 De-shedding is the removal of the dog’s loose undercoat hair; hair that will eventually end up on your furniture and clothing. You can help this process along by having them de-shed by a groomer. This process helps the dog get rid of most of this undercoat quickly, reducing the amount of hair left around your home and also speeding up the shedding process making your dog more comfortable.  
 
-Different coat types
+### Different coat types
 
 If you push back the top coat of your dog or cat, it’s likely that you’ll see a different type of fur, sometimes of a different color, underneath.
 
