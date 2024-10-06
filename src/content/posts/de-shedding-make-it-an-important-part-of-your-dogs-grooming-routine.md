@@ -1,7 +1,7 @@
 ---
-title: "DE-SHEDDING: MAKE IT AN IMPORTANT PART OF YOUR DOG'S GROOMING ROUTINE"
+title: "De-Shedding: Make It an Important Part of Your Dog’s Grooming Routine"
 date: 2024-10-06T14:08:00.000Z
-description: "DE-SHEDDING: MAKE IT AN IMPORTANT PART OF YOUR DOG'S GROOMING ROUTINE"
+description: "De-Shedding: Make It an Important Part of Your Dog’s Grooming Routine"
 draft: true
 image:
   alt: mobile-dog-grooming
