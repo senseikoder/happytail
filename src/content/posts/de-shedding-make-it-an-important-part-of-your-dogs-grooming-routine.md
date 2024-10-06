@@ -21,23 +21,19 @@ If you push back the top coat of your dog or cat, it’s likely that you’ll se
 
 Some pets shed more than others, and some don’t really shed at all. Some breeds, such as poodles, don’t have an undercoat. Their fur grows consistently and sheds less, meaning they need to be clipped regularly.  
 
-A Few Good Reasons to De-shed Your Dog 
+##### A Few Good Reasons to De-shed Your Dog 
 
 If you're a dog owner, you know if your furry friend sheds a lot, and it can be a real hassle to clean up all that hair. However, regular de-shedding can provide many benefits for both you and your dog. 
 
-1.	It helps to reduce the amount of hair that your dog sheds, which means you'll spend less time cleaning up after them. This is particularly important for people who suffer from allergies or asthma.
+1. **It helps to reduce the amount of hair that your dog sheds**, which means you'll spend less time cleaning up after them. This is particularly important for people who suffer from allergies or asthma.
+2. **It reduces the amount of hair your dog ingests**, which in some cases lead to hairballs and digestive issues. This is especially important for long-haired breeds, as they are more likely to develop these problems. 
+3. **It helps to improve your dog's coat and skin health.** When you remove the excess hair, you allow air to circulate around your dog's skin, which can help to prevent hot spots and other skin irritations. 
 
-2.	It reduces the amount of hair your dog ingests, which in some cases lead to hairballs and digestive issues. This is especially important for long-haired breeds, as they are more likely to develop these problems. 
+   Regular de-shedding can also help to distribute your dog's natural oils throughout their coat, which can make their fur softer, shinier and healthier. 
+4. **Avoid unpleasant matting!** De-shedding aids in the natural shedding process. While it won’t be able to remove all of the undercoat, it will help protect your pet from unexpected and painful mats. 
+5. **Strengthen the bond between you and your dog.** When you personally take time to groom your dog, you're showing them that you care about their well-being, and this can help to strengthen the trust and bond between you. 
 
-3.	It helps to improve your dog's coat and skin health. When you remove the excess hair, you allow air to circulate around your dog's skin, which can help to prevent hot spots and other skin irritations. 
-
-Regular de-shedding can also help to distribute your dog's natural oils throughout their coat, which can make their fur softer, shinier and healthier. 
-
-4.	Avoid unpleasant matting! De-shedding aids in the natural shedding process. While it won’t be able to remove all of the undercoat, it will help protect your pet from unexpected and painful mats. 
-
-5.	Strengthen the bond between you and your dog. When you personally take time to groom your dog, you're showing them that you care about their well-being, and this can help to strengthen the trust and bond between you. 
-
-How to de-shed your pet
+##### How to de-shed your pet
 
 De-shedding on a weekly basis as part of your regular grooming routine can really help to control the amount of fur around your home. 
 
