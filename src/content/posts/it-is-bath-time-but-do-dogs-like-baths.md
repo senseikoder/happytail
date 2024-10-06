@@ -13,13 +13,13 @@ For dogs with bath anxiety, we recommend giving your pet something to focus on, 
 
 After a bath, some dogs might have a lot of excited energy to burn off. They could start to run around of even shake, this is natural, and nothing to be concerned about. This is most likely energy they need to release after being in the tub.
 
-### How often should you bathe your dog?  
+### How often should you bathe your dog?
 
 The answer varies, depending on breed, lifestyle and coat. Do they spend their days frolicking in the grass and playing in the mud, or are they lap dogs who would rather cozy up inside?
 
 It also depends on their hair length. According to our experience at Happy Tail Grooming, medium and long coat dogs should bathe every four to six weeks, and owners of dogs with short coats should bathe their pets somewhere every six to eight weeks.
 
-Knowing when and how often to bathe your dog can be a combination of knowing your dog is in need of a bath naturally due to the frequency needed, or if they get excessively dirty and need attention immediately. Dogs theat tend to roll in things they shouldn’t, may require more frequent bathes. Use your sense of smell and touch to determine if your dog is in need of a bath, more frequently than recommended. 
+Knowing when and how often to bathe your dog can be a combination of knowing your dog is in need of a bath naturally due to the frequency needed, or if they get excessively dirty and need attention immediately. Dogs tend to roll in things they shouldn’t, may require more frequent bathes. Use your sense of smell and touch to determine if your dog is in need of a bath, more frequently than recommended. 
 
 ### Things that determine the frequency of your dog’s baths
 
