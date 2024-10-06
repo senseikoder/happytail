@@ -21,7 +21,7 @@ If you push back the top coat of your dog or cat, it’s likely that you’ll se
 
 Some pets shed more than others, and some don’t really shed at all. Some breeds, such as poodles, don’t have an undercoat. Their fur grows consistently and sheds less, meaning they need to be clipped regularly.  
 
-##### A Few Good Reasons to De-shed Your Dog 
+### A Few Good Reasons to De-shed Your Dog 
 
 If you're a dog owner, you know if your furry friend sheds a lot, and it can be a real hassle to clean up all that hair. However, regular de-shedding can provide many benefits for both you and your dog. 
 
@@ -33,7 +33,7 @@ If you're a dog owner, you know if your furry friend sheds a lot, and it can be 
 4. **Avoid unpleasant matting!** De-shedding aids in the natural shedding process. While it won’t be able to remove all of the undercoat, it will help protect your pet from unexpected and painful mats. 
 5. **Strengthen the bond between you and your dog.** When you personally take time to groom your dog, you're showing them that you care about their well-being, and this can help to strengthen the trust and bond between you. 
 
-##### How to de-shed your pet
+### How to de-shed your pet
 
 De-shedding on a weekly basis as part of your regular grooming routine can really help to control the amount of fur around your home. 
 
@@ -43,4 +43,4 @@ We recommended using de-shedding treatments at least once every 3 months, this t
 
 Take some time to de-shed your dog on a regular basis, and both you and your furry friend will reap the benefits.
 
-You could also contact us at Happy Tail Grooming and we will be happy to take care of your pet if you need any help with de-shedding or other services we provide.
+You could also contact us at **Happy Tail Grooming** and we will be happy to take care of your pet if you need any help with de-shedding or other services we provide.
