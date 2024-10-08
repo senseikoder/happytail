@@ -4,7 +4,7 @@ date: 2024-09-08T11:06:00.000Z
 description: Why grooming your dog
 draft: false
 image:
-  url: /uploads/_cf1faebb-f72f-4488-87a9-77d9494c0d00.jpeg
+  url: /uploads/grooming0.jpg
   alt: grooming-your-pets.jpg
 ---
 Whether you do the grooming yourself or bring your pet to a professional groomer, the reasons why you need to groom your dog are numerous.
