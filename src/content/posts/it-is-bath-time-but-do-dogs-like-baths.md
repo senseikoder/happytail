@@ -1,8 +1,8 @@
 ---
 title: It Is Bath time, But Do Dogs Like Baths?
-date: 2024-10-06T14:56:00.000Z
+date: 2024-10-20T22:59:00.000Z
 description: It Is Bath time, But Do Dogs Like Baths?
-draft: true
+draft: false
 image:
   url: /uploads/_cf1faebb-f72f-4488-87a9-77d9494c0d00.jpeg
   alt: mobile-dog-grooming
