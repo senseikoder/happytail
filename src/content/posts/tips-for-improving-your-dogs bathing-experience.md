@@ -1,8 +1,8 @@
 ---
 title: "Tips for Improving Your Dog's Bathing Experience "
-date: 2025-02-16T18:20:00.000Z
+date: 2025-02-16T18:27:00.000Z
 description: Tips for Improving Your Dog's Bathing Experience
-draft: false
+draft: true
 image:
   url: /uploads/img_7072.jpg
   alt: bathtips.jpg
