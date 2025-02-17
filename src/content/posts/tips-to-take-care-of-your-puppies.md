@@ -2,7 +2,7 @@
 title: Tips To Take Care of Your Puppies
 date: 2025-02-16T17:50:00.000Z
 description: Tips to take care of your puppies
-draft: true
+draft: false
 image:
   url: /uploads/img_1542.jpg
   alt: puppytips.jpg
