@@ -2,12 +2,11 @@
 title: "Tips for Improving Your Dog's Bathing Experience "
 date: 2025-02-16T18:20:00.000Z
 description: Tips for Improving Your Dog's Bathing Experience
-draft: true
+draft: false
 image:
   url: /uploads/img_7072.jpg
-  alt: bathin
+  alt: bathtips.jpg
 ---
-
 Does your dog hate to take baths? Fortunately, there are steps you can take to make bath time less stressful for you and your dog. Check out these simple tricks to make dog's bath time easier and more pleasant:
 
 **Brush before and after the bath.** This will help to remove any dirt or dead hair as well as prevent you from pulling on wet matted tangles while they are in the tub.
@@ -31,7 +30,7 @@ things from the ground and ruin all the work you just put in.
 
 **Put your pet in the tub with as little drama as possible.** Lead your dog to the water offering positive cheer and treats along the way. Don’t lose your cool if your dog resists — if they already dislike bathing, an association with your angry voice won't help. 
 
-Other useful tips:
+### Other useful tips:
 
 * Check the temperature of the water coming from the tap. It may be too chilly for your dog even on a warm day.
 * If you’re using the tub, fill it with three or four inches of lukewarm water, about the same temperature you’d use for an infant. 
