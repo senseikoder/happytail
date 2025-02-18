@@ -5,7 +5,7 @@ description: "De-Shedding: Make It an Important Part of Your Dog’s Grooming Ro
 draft: false
 image:
   alt: mobile-dog-grooming
-  url: /uploads/mobile-dog-grooming.jpg
+  url: /uploads/img_1299.jpg
 ---
 A dog’s hair grows in cycles, and shedding is a normal part of their hair life cycle. While all dogs shed to some degree, some breeds are more prone to shedding than others, such as Husky, Golden Retriever, Bernese Mountain, and German Shepherd.
 
