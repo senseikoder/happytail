@@ -4,7 +4,7 @@ date: 2025-02-16T18:27:00.000Z
 description: Tips for Improving Your Dog's Bathing Experience
 draft: false
 image:
-  url: /uploads/img_7072.jpg
+  url: /uploads/img_1241.jpg
   alt: bathtips.jpg
 ---
 Does your dog hate to take baths? Fortunately, there are steps you can take to make bath time less stressful for you and your dog. Check out these simple tricks to make dog's bath time easier and more pleasant:
