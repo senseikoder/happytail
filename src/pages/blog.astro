@@ -1,17 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Image from "astro/components/Image.astro";
-import banner from "../images/banner-faq.webp";
 
 
 import { getCollection } from 'astro:content';
 const blogEntries = await getCollection('posts',  ({ data }) => {
   return data.draft !== true
-})
+});
 
 ---
 
-<Layout title="Blog :: Happy Tail Grooming">
+<Layout title="Blog :: Happy Tail Grooming" description="Blog about dog grooming and pet care">
    <!-- Main -->
    <section id="main" class="container medium bg-wave blog">
       <header>
@@ -19,8 +17,8 @@ const blogEntries = await getCollection('posts',  ({ data }) => {
       </header>
       
       <div class="row">
-         {blogEntries.map(post => (
-            <div class="col-6">
+         {blogEntries.sort((a, b) => new Date(b.data.date) - new Date(a.data.date)).map(post => (
+            <div class="col-5">
                <section class="box special">
 
                   <span class="image featured">
