@@ -100,6 +100,10 @@
    }
 }
 
+.stars .icon {
+  color: goldenrod;
+}
+
 
 
 // SLider
@@ -131,4 +135,10 @@
       padding-top: 1rem;
       background-position: right 0em, left 0em;
    }
+}
+
+@media screen and (max-width: 1680px) {
+  #banner {
+    padding: 8em 0 14em 0;
+  }
 }

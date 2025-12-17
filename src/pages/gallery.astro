@@ -74,20 +74,49 @@ import pic70 from "./../images/gallery/dog-grooming-(70).webp";
 import pic71 from "./../images/gallery/dog-grooming-(71).webp"; 
 import pic72 from "./../images/gallery/dog-grooming-(72).webp"; 
 import pic73 from "./../images/gallery/dog-grooming-(73).webp"; 
-import pic74 from "./../images/gallery/dog-grooming-(74).webp"; 
+import pic74 from "./../images/gallery/dog-grooming-(74).webp";
+import pic75 from "./../images/gallery/dog-grooming-(75).webp";
+import pic76 from "./../images/gallery/dog-grooming-(76).webp";
+import pic77 from "./../images/gallery/dog-grooming-(77).webp";
+import pic78 from "./../images/gallery/dog-grooming-(78).webp";
+import pic79 from "./../images/gallery/dog-grooming-(79).webp";
+import pic80 from "./../images/gallery/dog-grooming-(80).webp";
+import pic81 from "./../images/gallery/dog-grooming-(81).webp";
+import pic82 from "./../images/gallery/dog-grooming-(82).webp";
+import pic83 from "./../images/gallery/dog-grooming-(83).webp";
+import pic84 from "./../images/gallery/dog-grooming-(84).webp";
+import pic85 from "./../images/gallery/dog-grooming-(85).webp";
+import pic86 from "./../images/gallery/dog-grooming-(86).webp";
+import pic87 from "./../images/gallery/dog-grooming-(87).webp";
+import pic88 from "./../images/gallery/dog-grooming-(88).webp";
+import pic89 from "./../images/gallery/dog-grooming-(89).webp";
+import pic90 from "./../images/gallery/dog-grooming-(90).webp";
+import pic91 from "./../images/gallery/dog-grooming-(91).webp";
+import pic92 from "./../images/gallery/dog-grooming-(92).webp";
+import pic93 from "./../images/gallery/dog-grooming-(93).webp";
+import pic94 from "./../images/gallery/dog-grooming-(94).webp";
+import pic95 from "./../images/gallery/dog-grooming-(95).webp";
+import pic96 from "./../images/gallery/dog-grooming-(96).webp";
+import pic97 from "./../images/gallery/dog-grooming-(97).webp";
+import pic98 from "./../images/gallery/dog-grooming-(98).webp";
+import pic99 from "./../images/gallery/dog-grooming-(99).webp";
+import pic100 from "./../images/gallery/dog-grooming-(100).webp";
+import pic101 from "./../images/gallery/dog-grooming-(101).webp";
 
-const pic = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18, pic19, pic20, pic21, pic22, pic23, pic24, pic25, pic26, pic27, pic28, pic29, pic30, pic31, pic32, pic33, pic34, pic35, pic36, pic37, pic38, pic39, pic40, pic41, pic42, pic43, pic44, pic45, pic46, pic47, pic48, pic49, pic50, pic51, pic52, pic53, pic54, pic55, pic56, pic57, pic58, pic59, pic60, pic61, pic62, pic63, pic64, pic65, pic66, pic67, pic68, pic69, pic70, pic71, pic72, pic73, pic74];
+
+
+const pic = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18, pic19, pic20, pic21, pic22, pic23, pic24, pic25, pic26, pic27, pic28, pic29, pic30, pic31, pic32, pic33, pic34, pic35, pic36, pic37, pic38, pic39, pic40, pic41, pic42, pic43, pic44, pic45, pic46, pic47, pic48, pic49, pic50, pic51, pic52, pic53, pic54, pic55, pic56, pic57, pic58, pic59, pic60, pic61, pic62, pic63, pic64, pic65, pic66, pic67, pic68, pic69, pic70, pic71, pic72, pic73, pic74, pic75, pic76, pic77, pic78, pic79, pic80, pic81, pic82, pic83, pic84, pic85, pic86, pic87, pic88, pic89, pic90, pic91, pic92, pic93, pic94, pic95, pic96, pic97, pic98, pic99, pic100, pic101];
 ---
 
 
-<Layout title="Gallery :: Happy Tail Grooming">
+<Layout title="Gallery :: Happy Tail Grooming" description="Gallery of our services">
    <!-- Main -->
    <section id="main" class="container large bg-wave">
       <header>
          <h2>Gallery</h2>
       </header>
       <div class="box gallery">
-         {Array.from({ length: 74 }).map((_, index) => (
+         {Array.from({ length: pic.length }).map((_, index) => (
 
             <div class="image">
                <a href={pic[index].src} data-lightbox="gallery">
@@ -108,7 +137,7 @@ const pic = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11,
       /* display: flex;
       flex-wrap: wrap;
       justify-content: center; */
-      column-count: 4;
+      column-count: 5;
       column-gap: 10px;
    }
 

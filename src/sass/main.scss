@@ -407,7 +407,7 @@ code {
 	}
 
 	&.large {
-		width: (_size(container-width) * .90);
+		width: (_size(container-width) * 1.05);
 		// width: (_size(container-width) * 1.25);
 	}
 

@@ -9,10 +9,11 @@ import cred0 from "../images/credentials0.webp";
 import cred1 from "../images/credentials1.webp";
 import cred2 from "../images/credentials2.webp";
 import cred3 from "../images/credentials3.webp";
-import publiModal from "../images/publi-modal.webp";
+// import publiModal from "../images/publi-modal.webp";
 // import Modal from "../components/Modal.astro";
 
 import picCathe from "../images/catherine-toro-groomer.webp";
+import van from "../images/home-van.webp";
 import Reviews from "../components/Reviews.astro";
 import "flickity/dist/flickity.min.css";
 ---
@@ -47,6 +48,11 @@ import "flickity/dist/flickity.min.css";
 					their individual needs, and discuss these needs with each client
 					to ensure every pet receives the best care and service possible.
 				</p>
+        <br>
+
+        <Image src={van} alt="Home Van" width="600" class="van"/>
+        <br>
+
 				<p>
 					You no longer have to worry about your pet experiencing many of
 					the anxieties that come with visiting your typical grooming
@@ -221,6 +227,11 @@ import "flickity/dist/flickity.min.css";
 		max-width: 100%;
 		height: auto;
 	}
+
+  .van {
+    border-radius: 1rem;
+    margin-block: 1.5rem;
+  }
 
 	@media (max-width: 768px) {
 		.logo img {

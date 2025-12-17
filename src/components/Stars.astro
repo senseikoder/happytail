@@ -1,7 +1,11 @@
+---
+const cant_stars = Astro.props.cant
+---
+
 <div class="stars">
-  <span class="icon fa-solid fa-star"></span>
-  <span class="icon fa-solid fa-star"></span>
-  <span class="icon fa-solid fa-star"></span>
-  <span class="icon fa-solid fa-star"></span>
-  <span class="icon fa-solid fa-star"></span>
+  {
+    Array.from({ length: cant_stars }, (_, index) => (
+      <span class="icon fa-solid fa-star"></span>
+    ))
+  }
 </div>
